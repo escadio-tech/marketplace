@@ -1,0 +1,441 @@
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+      Explore os Recursos Avançados da WDNA, Sua Plataforma de Loja Virtual                                     
+        Operações  Plataforma  White label  Internacional  Recursos  
+   PT  EN  ES 
+ Falar com um especialista      
+
+   PT  EN  ES 
+ Operações  Plataforma  White label  Internacional  Recursos  Parceiros  Ajuda  Falar com um especialista           Lista de Recursos da Plataforma WDNA
+
+    Explore os recursos da Plataforma de e-commerce WDNA, uma escolha de destaque para empreendedores digitais que procuram eficácia, escalabilidade e uma experiência de usuário superior.
+            
+
+  A   B   C   D   E   F   G   I   K   M   N   P   R   S   V 
+  A
+  Acesso ao HTML, CSS e JS
+  Oferece a possibilidade de editar diretamente o código HTML, CSS e JavaScript do tema para personalizações avançadas, com um editor de arquivos completo (árvore de pastas de assets, layout, seções e templates) e exportação/importação do tema inteiro em .zip para backup ou edição externa.
+
+
+  Ações de Ativar/Inativar Produtos em Massa
+  Facilita a gestão do catálogo permitindo ativar ou inativar produtos em lote, além de atribuir categoria ou marca a vários produtos de uma vez — útil para gerenciar grandes quantidades de SKUs.
+
+
+  Ações em Massa nos Pedidos
+  Permite selecionar vários pedidos na listagem e aplicar ações em lote: mudar o status de todos de uma vez, imprimir pedidos/etiquetas/cupons em massa, ou gerar e cancelar etiquetas de envio em massa — sem precisar abrir cada pedido individualmente.
+
+
+  Alerta Sonoro Para Novos Pedidos
+  Permite ativar e desativar um alerta sonoro em tempo real para novos pedidos recebidos em sua loja virtual, facilitando a rápida resposta aos clientes.
+
+
+  Alteração de Status do Pedido Direto na Listagem
+  O status de cada pedido é um menu interativo na própria listagem: dá para avançar a etapa (ex.: Enviado → Em transporte, Em processo de troca, Em processo de devolução, Solicitação de cancelamento) sem abrir o pedido.
+
+
+  Análise de Tráfego e Comportamento do Usuário
+  Integra ferramentas de análise (Google Analytics 4, Hotjar e similares) através da galeria de integrações da categoria "Análise", para monitorar o tráfego do site e o comportamento dos usuários.
+
+
+ B
+  Balanceamento de carga
+  Infraestrutura em no mínimo duas zonas de disponibilidade com balanceamento de carga e autoscaling, garantindo um excelente SLA e total disponibilidade mesmo em momentos de pico. Clique  AQUI  e conheça a infraestrutura AWS que disponibilizamos para sua loja virtual.
+
+
+  Banco de Imagens
+  Oferece um repositório para armazenar e gerenciar imagens usadas no site, como produtos, banners e logos, com busca e organização por etiquetas reaproveitadas em qualquer tela que selecione mídia (vitrines, coleções de selos etc.).
+
+
+ C
+  Cadastro de Novo Cliente Ativado Automático ou Sob Análise
+  Permite escolher, por canal de venda, se cadastros de novos clientes são ativados automaticamente ou requerem análise manual para ativação.
+
+
+  Canais de Comunicação Chat
+  Habilita comunicação direta com clientes via chat (ex.: WhatsApp e outras ferramentas de chat), através de plugins prontos que só precisam ser ativados, sem escrever código.
+
+
+  Canal de API para Integração de Terceiros
+  Disponibiliza Client ID e Client Secret (credenciais OAuth2) para integração de terceiros, com opção de "Renovar credenciais" para revogar e emitir novas a qualquer momento.
+
+
+   Catálogo com Links de Programas de Afiliados 
+  O Catálogo de Links de Afiliados WDNA foi criado para quem participa de vários programas — Mercado Livre, Shopee, Amazon, Hotmart, Magalu, Eduzz, Monetizze — e sente que os links espalhados em posts e stories acabam diluindo cliques e vendas. Com o WDNA você concentra tudo em uma vitrine digital única, personalizável, rápida de compartilhar e pensada para alta indexação nos buscadores.  Confira como criar seu Catálogo com Links de Programas de Afiliados, clique AQUI. 
+
+
+  Certificados de Segurança (SSL)
+  Fornece certificados SSL para garantir a segurança das transações e a confiança dos usuários.
+
+
+  Checkout Transparente
+  Permite pagamentos diretos na plataforma, sem redirecionar para sites externos, oferecendo uma experiência de compra segura e ágil. Reduz o abandono de carrinho ao manter o usuário no mesmo ambiente, suportando diversas formas de pagamento para aumentar a conversão de vendas.
+
+
+  Clonar Produtos
+  Permite duplicar as informações de um produto existente para criar um novo produto semelhante, economizando tempo na inserção de novos produtos similares.
+
+
+  Clonar Tabela de Preços
+  Facilita a duplicação de uma tabela de preços existente — incluindo os preços já definidos produto a produto — para ser utilizada como base para uma nova, permitindo ajustes sem necessidade de criar uma do zero.
+
+
+  Controle de Acesso e Permissões
+  Permite definir diferentes grupos de acesso para membros da equipe (ex.: Administrador, Vendedor, Vendedor Marketplace), com permissões detalhadas e alternâncias específicas de acesso ao admin/dashboard.
+
+
+  Controle de Estoque do Inventário
+  Permite o gerenciamento eficiente do estoque por centro de distribuição, monitorando quantidade total, disponível e reservada de cada produto, com reajuste de estoque em massa.
+
+
+  Crédito de Loja para Clientes (Carteira)
+  Mantém um extrato de crédito de loja por cliente (reembolsos emitidos como crédito, ajustes manuais), com lançamentos manuais de crédito ou débito individuais ou em lote por grupo de clientes inteiro.
+
+
+  Criação de Páginas Adicionais
+  Facilita a adição de novas páginas ao site, como páginas de conteúdo, landing pages, entre outras, com editor de texto rico completo (formatação, tabelas, links, imagens e vídeo incorporado).
+
+
+  Crie Múltiplos Datafeeds
+  Habilita a criação de datafeeds personalizados para plataformas como Google Merchant, permitindo ajustar canais de vendas e tabelas de preços por feed.
+
+
+  Cupom Desconto e Regras
+  Crie cupons de desconto e configure regras, tais como tipo de desconto (percentual, valor fixo, frete grátis), máximo de utilizações (geral ou por usuário), formas de pagamento aceitas com o cupom, canais de venda em que ele vale, além de restrições de uso por faixa de CEP, categorias ou produtos específicos.
+
+
+ D
+  Design Responsivo
+  Garante uma experiência de navegação fluida e adaptável em qualquer dispositivo móvel, com controle independente de quais imagens e seções aparecem em Desktop e em Mobile.
+
+
+  Dimensões Padrão para Cálculo de Frete
+  Define dimensões e peso padrão para cálculo de frete de produtos sem essas informações especificadas.
+
+
+  Documentação de API
+  Fornece documentação detalhada dos endpoints da API, facilitando a integração e o desenvolvimento — acessível diretamente de dentro do canal do tipo API.
+
+
+  Domínio Próprio
+  Utilize seu próprio domínio com o nome do seu negócio; é possível cadastrar mais de um domínio por canal, marcando um deles como padrão.
+
+
+ E
+  Edição de Emails Transacionais
+  Permite personalizar o conteúdo de todos os emails transacionais do sistema (confirmação de pedido, redefinição de senha, mudança de status, envio, nota fiscal, cancelamento, orçamento, avaliação de produto etc.) para melhorar a comunicação com o cliente.
+
+
+  Edição de Menus
+  Oferece ferramentas para personalizar os menus de navegação do site — manuais (item a item, com submenus aninhados) ou gerados automaticamente a partir das categorias do catálogo, com ícone e banner promocional por item.
+
+
+  Edição de Templates de Impressão
+  Oferece a possibilidade de personalizar os modelos de impressão para orçamento, pedidos, cupons e etiquetas de envio, com cabeçalho e rodapé compartilhados.
+
+
+  Edição de Vitrines
+  Permite customizar as vitrines da loja virtual, com seções independentes e reordenáveis para a Home e para a página de Produto, cada uma configurável separadamente para Desktop e Mobile.
+
+
+  Edição e Personalização de Campos da Plataforma
+  Permite criar ou editar campos personalizados como grupos de contatos, endereços, descrições, marcas, grades de variações ou categorias de movimentação.
+
+
+  Emissor de Nota Fiscal Grátis (Simples Nacional)
+  Emissor de Nota Fiscal eletrônica para Simples Nacional, acessível pelo ADMIN da loja e com opção de emissão automática por canal a partir de um status do pedido, ou emissão manual pedido a pedido.
+
+
+  Exibir se produto pertence a kit
+  Habilita uma coluna na listagem para melhorar o gerenciamento de kits.
+
+
+  Exportação Agendada
+  Habilita o agendamento de exportações automáticas com campos personalizados, com notificações por e-mail ou URL de callback — configurado como um canal dedicado do tipo "Agendamento de exportação".
+
+
+ F
+  Facebook Pixel
+  Permite monitorar as conversões em seu site através dos anúncios no Facebook, dessa forma você pode tornar suas campanhas de publicidade do Facebook mais eficazes.
+
+
+  Ferramenta de Monte Seu Kit
+  Oferece aos clientes a opção de montar seus próprios kits de produtos — com seções configuráveis (ex.: "Caderno", "Lápis"), quantidade mínima/máxima por seção e preço calculado dinamicamente — aumentando o engajamento e o valor médio do pedido.
+
+
+  Filtros Avançados de Produto
+  Permite aos clientes filtrar produtos por diversos critérios, como tamanho, cor, preço, marca, etc., para facilitar a busca.
+
+
+  Frete por CD
+  Calcula o custo do frete com base no centro de distribuição de origem, cujo endereço postal é cadastrado individualmente por estoque.
+
+
+ G
+  Gerenciamento de Banners
+  Ferramenta para criar e programar banners promocionais no site, com links para categorias, produtos ou promoções específicas.
+
+
+  Gerenciamento de Categorias
+  Permite criar e organizar categorias de produtos em hierarquia (categoria e subcategorias) para facilitar a navegação e a busca por itens específicos, com controle de quais campos de produto ficam disponíveis por categoria.
+
+
+  Gerenciar Documentos no Cadastro do Usuário
+  Permite selecionar quais documentos (CPF, CNPJ, CNPJ com IE, Estrangeiro) são aceitos no cadastro de usuários, por canal de venda.
+
+
+  Gerenciar Preço e Margem
+  Permite gerenciar custo, percentual de margem e margem padrão nas tabelas de preço, com o preço recalculado automaticamente ao alterar custo ou margem.
+
+
+  Gestão de Estoque Virtual
+  O Estoque Virtual refere-se à prática de gerenciar produtos que não estão fisicamente armazenados em seu próprio depósito, mas sim nos estoques de distribuidores ou parceiros — a plataforma diferencia estoques próprios ("Físico") de estoques terceirizados/parceiros ("Terceiros") dentro da mesma gestão de centros de distribuição. Entenda os diferentes modelos de estoque virtual:  dropshipping, cross-docking, venda direta e intermediada. 
+
+
+  Gestão Multi CD
+  Facilita a gestão de múltiplos centros de distribuição — cada um com seu próprio prazo de preparo, endereço de origem para frete e estoque por produto — otimizando a logística e o envio de produtos.
+
+
+  Grupos de Contato para Login por Cliente
+  Cada cliente pode ter múltiplos contatos de login (e-mail e telefone), cada um opcionalmente vinculado a um canal de venda específico — um contato sem vínculo de canal pode ser usado para entrar em qualquer canal.
+
+
+ I
+  Imagens WebP
+  Imagens em padrão WebP para garantir a qualidade visual e manter a velocidade de carregamento.
+
+
+  Importação e Exportação Avançada
+  Possui função de mapeamento de campos (de/para), facilitando o intercâmbio de informações entre sistemas. A plataforma possui função de mapeamento de campos para leitura de arquivos, que realiza o De/Para, simplificando a transferência de informações entre sistemas e permitindo uma integração mais eficiente.
+
+
+  Importação e Exportação de Dados via CSV/XML/JSON
+  Facilita a transferência de dados, como pedidos, clientes e produtos, entre a plataforma e outros sistemas, com histórico de todas as importações/exportações já realizadas.
+
+
+  Inserção de Novos Scripts
+  Permite adicionar scripts customizados (ex.: pixel de rastreamento, widget personalizado) em páginas específicas da plataforma para integração de ferramentas externas.
+
+
+  Integração com ERP
+  Oferece integração com ERPs como o Bling (com sincronização de produtos, estoque, pedidos, categorias e clientes, cada módulo habilitado individualmente), facilitando a gestão empresarial.
+
+
+  Integração com Sistemas de Envio
+  Permite a integração com diversos prestadores de serviços de envio (ex.: Melhor Envio) para cálculo automático de frete e rastreamento.
+
+
+  Integração Direta com Marketplaces
+  Integração direta com marketplaces como o Mercado Livre — com abas próprias de produtos, estoque, pedidos, anúncios, perguntas/chat e repasse financeiro — sem precisar se preocupar com hubs de integração.
+
+
+ K
+  Kit de Produtos
+  Permite vender produtos em conjunto como um kit, reunindo produtos já existentes por um preço único, podendo oferecer um desconto diferenciado para o pacote.
+
+
+ M
+  Movimentação de Pedido
+  Todo lançamento financeiro (receita e despesa) fica registrado e categorizado — vinculado ou não a um pedido — com totais de receita, despesa e resultado líquido, facilitando o controle de movimentação.
+
+
+  Multi Loja
+  Permite gerenciar várias lojas virtuais a partir de uma única conta/administração — com um seletor rápido para abrir o site público de cada loja ativa.
+
+
+  Múltiplos Fretes
+  Permite oferecer diferentes opções de frete no mesmo pedido, cada uma podendo ser associada a produtos específicos dele.
+
+
+  Multitabela de Preços
+  Permite oferecer diferentes estruturas de preços para diferentes tipos de clientes ou quantidades, inclusive restringindo uma tabela a um tipo de documento específico (CPF, CNPJ, CNPJ com IE ou estrangeiro).
+
+
+ N
+  Newsletter
+  Permite visualizar e exportar a lista de pessoas inscritas no newsletter da loja, filtrando por canal de venda.
+
+
+ P
+  Pedido de Orçamento
+  Permite gerar um orçamento interno — usando a mesma tela de montagem de pedidos — que pode ser convertido em pedido efetivo depois.
+
+
+  Personalização de Checkout
+  Permite customizar o processo de checkout: quantidade mínima de produtos no carrinho, se o cliente escolhe um vendedor, quais documentos são exigidos, e se a senha é criada automaticamente no cadastro.
+
+
+  Personalização de Design e Layout
+  Permite a personalização completa da aparência e layout da loja, incluindo temas, cores e estrutura, utilizando modelos prontos da galeria de temas ou criação do zero pelo editor de código.
+
+
+  Personalização de Status e Substatus dos Pedidos
+  Permite criar e personalizar etapas (status e substatus) dos pedidos além das padrão, para refletir melhor o processo de negócio específico da loja.
+
+
+  Prazo de Entrega por CD
+  Define prazos de entrega variados conforme o centro de distribuição, com faixa de prazo mínimo/máximo configurável em minutos, horas ou dias.
+
+
+  Produto Sob Consulta
+  Opção para produtos que necessitam de consulta para definição de preço ou disponibilidade, retirando o preço do site e adicionando um botão para "Consultar preço" — ativável produto a produto, direto na tabela de preços.
+
+
+  Produtos em Múltiplas Categorias
+  Permite que um produto seja listado em várias categorias, maximizando sua visibilidade, com uma delas marcada como categoria principal.
+
+
+  Promoção com Prazo de Lançamento ou Término Programado
+  Permite criar promoções com datas de início e término programadas (sem limite se deixado em branco), restritas a canais, categorias/produtos específicos ou faixas de CEP, facilitando a gestão de campanhas sazonais ou ofertas especiais.
+
+
+  Promoções "Pague X Leve Y"
+  Habilita promoções tipo "Pague X Leve Y", como "Leve 2 Pague 1" ou "Leve 3 Pague 2", além de desconto progressivo por valor do pedido ou por quantidade de itens, otimizando vendas através de incentivos de quantidade.
+
+
+ R
+  Reajuste de Preços em Massa
+  Permite ajustar os preços de múltiplos produtos simultaneamente, com opções de reajuste por percentual, valor fixo, custo ou promoção — aplicado a todos os produtos do filtro/busca atual de uma vez.
+
+
+  Recuperação de Carrinho Abandonado (CartStack)
+  Envia lembretes automáticos para clientes que deixaram itens no carrinho sem finalizar a compra.
+
+
+  Rede CDN para Imagens e Conteúdos Estáticos
+  Utiliza rede CDN para otimizar a entrega de imagens e conteúdos estáticos, melhorando a performance do site.
+
+
+  Redirecionamentos Ilimitados
+  Cadastre múltiplos domínios adicionais e redirecione todos eles automaticamente para o domínio principal da sua loja, sem limite de quantidade.
+
+
+  Relatórios Detalhados
+  Nove tipos de relatório (Estoques, Movimentações, Movimentações de produto, Pedidos, Subpedidos, Vendas, Vendas por produto, Carteira e Produtos), cada um com filtros e colunas próprios, exportáveis em CSV ou por impressão. Filtros usados com frequência podem ser salvos por nome e reabertos depois sem reconfigurar tudo de novo.
+
+
+  Resposta Automática por E-mail e WhatsApp
+  Envia automaticamente e-mails (e, via plugin, mensagens de WhatsApp) de confirmação de pedido, envio e demais informações transacionais.
+
+
+ S
+  Seleção de Vendedor no Checkout
+  Opção para o cliente escolher um vendedor específico no momento do checkout, útil em plataformas que suportam múltiplos vendedores e operações de B2B.
+
+
+  Seleção do Modo de Exibição da Loja Virtual
+  Altere facilmente o modo de exibição da sua loja virtual, alterne entre B2C, B2B, Catálogo, Vitrine com ou sem preços e botão Whats, Carrinho para Whats.
+
+
+  SEO Geral da Loja
+  Recursos que ajudam a otimizar a loja para motores de busca: título, tags de pesquisa, meta description, robots.txt e sitemap (com notificação automática ao Google).
+
+
+  SEO para Categorias e Marcas
+  Permite otimizar as páginas de categorias e marcas para melhorar o posicionamento nos motores de busca.
+
+
+  SEO para Páginas Adicionais
+  Personalize o SEO (título, meta description) de qualquer página adicional criada na plataforma.
+
+
+  SEO para Páginas de Produto
+  Oferece ferramentas específicas (tags SEO, título SEO, URL SEO e meta description) para otimizar as páginas de produto para motores de busca.
+
+
+  Sessões de Vitrines
+  Capacidade de criar e gerenciar múltiplas seções de vitrine, reordenáveis e independentes para a Home e para a página de Produto — para promoções específicas, novidades, mais vendidos etc.
+
+
+  Split de Frete no Pedido
+  Divide internamente o custo do frete para produtos de múltiplos CDs, permitindo associar produtos específicos a cada frete do pedido.
+
+
+  Subdomínio Gratuito
+  Utilize nossos subdomínios gratuitos para sua loja virtual ou canal de negócios.
+
+
+  Suporte a Produtos Digitais
+  Permite vender produtos digitais, como e-books, músicas, cursos, oferecendo envio de link para download.
+
+
+  Suporte a Vídeos nos Produtos
+  Permite adicionar vídeos nas páginas de produtos para proporcionar uma visualização mais detalhada.
+
+
+  Suporte Multicanal
+  Oferece integração com vendas multicanal, permitindo gerenciar loja virtual, marketplaces, ERP e canais de API a partir de um único admin, cada um com suas próprias regras de preço, estoque e frete.
+
+
+ V
+  Variações Avançadas de Produtos
+  Oferece suporte para criar variações complexas de produtos (grades de atributos como tamanho, cor, material etc.), incluindo padrão de SKU customizado por variação e gestão de estoque por variação.
+
+
+  Vários Tipos de Reajuste
+  Oferece flexibilidade nos tipos de reajuste, incluindo por margem, acrescentar ou descontar um percentual, ou aplicar um valor fixo ao preço de custo ou de venda.
+
+
+  Venda Cruzada (Cross Sell)
+  Permite sugerir produtos complementares ou relacionados na página de produto, incentivando os clientes a adquirir itens adicionais que agregam valor à sua compra inicial.
+
+
+  Venda de Serviços
+  Permite que a plataforma ofereça serviços como consultorias, instalações, cursos online, entre outros.
+
+
+  Vendedor Gerencia Apenas Seus Pedidos
+  Restringe vendedores a acessarem somente os pedidos aos quais estão relacionados.
+
+
+  Vitrine com Cotação de Segunda Moeda
+  Permite cadastrar cotações de moeda (símbolo e valor) para exibir e converter preços em uma segunda moeda na vitrine e no checkout, com uma marcada como padrão.
+
+
+ Nenhum recurso encontrado para essa busca.
+
+
+
+ 
+       
+ Plataforma de commerce para operações com regras próprias.
+ Londrina, PR — Brasil
+                   
+
+   Plataforma
+   Todos os recursos 
+  Recursos em destaque 
+  Integrações 
+  Remessa Conforme 
+ 
+  White label
+   E-commerce white label 
+  Marketplace white label 
+  Kit boas-vindas 
+  Seja um parceiro 
+ 
+  Ajuda e contato
+   Documentação e ajuda 
+  Fale conosco 
+ 
+
+
+  WDNA — plataforma de e-commerce B2C, B2B, multiloja, marketplace, white label e cross-border.
+  Política de privacidade  Termos de uso 
+
+
+   
+  
+

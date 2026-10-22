@@ -1,0 +1,81 @@
+Documentação / Gestão 
+ 12. Gestão > Carteira 
+ Gerencia os saldos de crédito de loja aplicados aos clientes. Esta é uma visão da loja inteira de todo lançamento de crédito/débito — a mesma carteira exibida por cliente em Clientes e usuários > detalhe do cliente > Carteira. 
+ Gestão > Carteira 
+ Lista da carteira 
+ Lista todo lançamento de crédito de loja de todos os clientes: busca por descrição, por #ID/nome do cliente, por ID do pedido, status de repasse, tipo (crédito/débito) e moeda. Um painel adicional "Mais filtros" acrescenta um filtro de data e uma ordenação. Os totais de Crédito, Débito e Total do saldo aparecem no rodapé da tabela.
+ Tela Gestão > Carteira, com os filtros de busca/status/tipo/moeda e a tabela de lançamentos (vazia) 
+ Elemento 
+ Tipo 
+ Função 
+ Buscar por descrição Texto Filtra os lançamentos pelo texto da descrição. 
+ #ID ou nome do usuário Texto Filtra lançamentos pertencentes a um cliente específico. 
+ ID Pedido / Status repasse / Tipo / Moeda Filtros Restringem a lista pelo pedido relacionado, seu status de repasse, crédito vs. débito, ou moeda. 
+ Moeda / Valor / Tipo / Status / Data / Descrição / Usuário / Pedido Colunas Detalhe completo de cada lançamento da carteira, incluindo a qual cliente e (se aplicável) a qual pedido ele se refere. 
+ Crédito / Débito / Total Totais no rodapé Somas para a lista filtrada no momento. 
+ Gestão > Carteira 
+ Gerenciar carteira 
+ O botão "Gerenciar carteira" abre um modal para creditar ou debitar saldo de loja em lote, aplicando-o a clientes selecionados individualmente ou a grupos de clientes inteiros de uma vez.
+ Modal "Gerenciar carteira", com "Aplicar em" definido como Grupos de clientes 
+ Elemento 
+ Tipo 
+ Função 
+ Tipo Seleção Crédito soma ao saldo do cliente; Débito subtrai dele. 
+ Aplicar em Botões de opção Clientes selecionados (escolhe clientes individuais por #ID/nome) ou Grupos de clientes (aplica a todos os clientes de um ou mais grupos de uma vez). 
+ Usuários / Grupos de clientes Seletor Qual campo aparece depende da escolha de "Aplicar em" acima. 
+ Moeda / Valor Seleção / Número A moeda e o valor do crédito ou débito. 
+ Descrição Textarea Uma nota explicando o motivo do lançamento, exibida depois na lista da carteira. 
+ 13. Gestão > Movimentações 
+ Um livro-caixa de todo lançamento de receita e despesa gerado pela loja, na moeda de cada transação. A maioria dos lançamentos é criada automaticamente a partir de pedidos (custo do produto, custo do frete, total do pedido); lançamentos adicionais podem ser adicionados manualmente para registrar outras receitas ou despesas. 
+ Gestão > Movimentações 
+ Lista de movimentações 
+ Lista todo lançamento financeiro: busca por descrição, pedido ou valor; filtra por situação, canal de venda ou categoria. Um painel adicional "Mais filtros" acrescenta um filtro de data e uma ordenação. Cada linha mostra o valor (em verde para receita, vermelho para despesa), sua categoria/nome, o pedido relacionado (se houver), uma descrição, canal e data. Os totais de Receita, Despesa e Total líquido aparecem no rodapé da tabela.
+ Tela Gestão > Movimentações, preenchida com os lançamentos gerados automaticamente a partir de pedidos recentes 
+ Elemento 
+ Tipo 
+ Função 
+ Descrição, pedido ou valor Texto Busca lançamentos por qualquer um desses três campos ao mesmo tempo. 
+ Situação / Canal / Categoria Filtros Restringem a lista pelo status do lançamento, canal de venda, ou a categoria do movimento (ex.: custo do produto, custo do frete, desconto). 
+ Valor / Categoria / Pedido / Descrição / Canal / Data Colunas Detalhe completo de cada lançamento; clicar no número do pedido abre esse pedido. 
+ Receita / Despesa / Total Totais no rodapé Somas para a lista filtrada no momento. 
+ Gestão > Movimentações 
+ Adicionar movimentação 
+ O botão "Adicionar" abre um modal simples para registrar manualmente um lançamento de receita ou despesa que não teve origem em um pedido (ex.: um custo ou receita avulsa). Os nomes das categorias de movimentação são definidos pela loja e não são traduzidos pelo seletor de idioma.
+ Modal "Adicionar", com o dropdown de categoria da movimentação aberto 
+ Elemento 
+ Tipo 
+ Função 
+ Categoria da movimentação Seleção O tipo de lançamento, ex.: custo do produto, custo do frete, desconto, receita/despesa sem categoria. 
+ Valor Número O valor monetário do lançamento. 
+ Descrição Texto Uma nota curta descrevendo o lançamento. 
+ Canal Seleção O canal de venda ao qual o lançamento é atribuído. 
+ Data Seletor de data A data em que o lançamento ocorreu. 
+ 14. Gestão > Relatórios 
+ Um construtor genérico de relatórios cobrindo nove conjuntos de dados: Estoques, Movimentações, Movimentações de produto, Pedidos, Subpedidos, Vendas, Vendas por produto, Carteira e Produtos. Cada tipo de relatório tem seus próprios filtros e colunas; os resultados podem ser impressos ou exportados em CSV, e uma configuração de filtros pode ser salva para reutilização. 
+ Gestão > Relatórios 
+ Gerar relatório 
+ O dropdown "Tipo de relatório" seleciona qual dos nove conjuntos de dados visualizar (Estoques, Movimentações, Movimentações de produto, Pedidos, Subpedidos, Vendas, Vendas por produto, Carteira, Produtos). Trocar o tipo substitui os filtros e as colunas da tabela abaixo por outros específicos daquele conjunto de dados — por exemplo, o relatório de Estoques mostrado aqui tem filtros de Produto/SKU/título, categoria e status da tabela de preço, enquanto Vendas oferece busca por pedido/cliente, data, status, status de pagamento e canal. "Imprimir" envia os resultados atuais para a caixa de diálogo de impressão do navegador, e "Exportar CSV" os baixa como um arquivo.
+ O dropdown "Tipo de relatório", listando os nove conjuntos de dados disponíveis 
+ Resultados do tipo de relatório Estoques, com seus filtros e colunas específicos 
+ Elemento 
+ Tipo 
+ Função 
+ Tipo de relatório Seleção Escolhe o conjunto de dados: Estoques, Movimentações, Movimentações de produto, Pedidos, Subpedidos, Vendas, Vendas por produto, Carteira ou Produtos. 
+ Linha(s) de filtros Varia por tipo Campos de busca e filtro específicos do tipo de relatório selecionado; um painel adicional "Mais filtros" pode acrescentar mais opções. 
+ Colunas da tabela Varia por tipo Mudam de acordo com o tipo de relatório selecionado — ex.: colunas de estoque/custo/preço para Estoques, ou total bruto/lucro para Vendas. 
+ Imprimir Botão Abre a caixa de diálogo de impressão do navegador com os resultados atuais do relatório. 
+ Exportar CSV Botão Baixa os resultados atuais (filtrados) do relatório como um arquivo CSV. 
+ Gestão > Relatórios 
+ Relatórios salvos 
+ A aba "Salvos" lista configurações de filtros de relatório salvas anteriormente por nome, para que uma combinação de filtros usada com frequência possa ser reaberta depois sem a necessidade de reinseri-la. Os registros podem ser buscados por nome, data ou tipo de relatório.
+ Aba "Salvos", filtrada por tipo de relatório (Vendas neste exemplo) e sem relatórios salvos até o momento 
+ Elemento 
+ Tipo 
+ Função 
+ Buscar por nome Texto Filtra as configurações salvas pelo nome dado a elas. 
+ Data / Tipo Filtros Restringem a lista pela data em que foi salva ou pelo tipo de relatório. 
+ Nome / Tipo / Data Colunas O nome da configuração salva, a qual tipo de relatório ela se aplica e quando foi salva. 
+ Abrir — reexecuta o relatório com a configuração de filtros salva. 
+ Deletar — remove a configuração salva. 
+ Anterior Marketing 
+ Próximo Personalizar

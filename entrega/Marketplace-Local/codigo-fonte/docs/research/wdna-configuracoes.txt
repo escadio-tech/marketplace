@@ -1,0 +1,42 @@
+Documentação / Configurações 
+ 23. Configurações 
+ Configurações administrativas gerais da plataforma, agrupadas em oito áreas: padrões de pedido/produto/painel, formas de pagamento, opções de frete, dados de catálogo compartilhados (grupos, descrições, marcas...), templates de e-mail, templates de impressão e importação/exportação manual. 
+ Configurações 
+ Configuração geral 
+ Dados gerais para configuração do painel principal do admin, agrupados em Configurações de pedidos (se pedidos manuais podem mudar de canal de venda, se frete/pagamento são obrigatórios, se vendedores só gerenciam seus próprios pedidos e o próximo número de pedido), Configuração de produto (filtro de status padrão na listagem, se kits são sinalizados na listagem, gestão de preço de custo/margem) e Configuração de dashboard (moeda padrão, tema do painel e os logos/ícones claro e escuro do painel).
+ Tela Configuração geral, mostrando Configurações de pedidos e o início de Configuração de produto 
+ Configurações 
+ Pagamentos 
+ Lista as formas de pagamento aceitas pela loja (ex.: um gateway Mercado Pago mais métodos personalizados como Cartão, PIX e Pagamento na retirada), com busca por nome e filtros por Status e Tipo.
+ Tela Pagamentos, listando um gateway Mercado Pago e três formas de pagamento personalizadas 
+ Adicionar — cria uma nova forma de pagamento (gateway ou personalizada). 
+ Configurações 
+ Frete 
+ Lista as opções de entrega/frete da loja (opções personalizadas, retirada na loja, entrega via motoboy ou gateways como o Melhor Envio), com o mesmo padrão de busca/filtro/ações em massa de Pagamentos, além de um menu "Mais opções" para ações em massa.
+ Tela Frete, listando opções de entrega personalizadas, retirada na loja e um gateway Melhor Envio 
+ Adicionar — cria uma nova opção de entrega ou gateway. 
+ Configurações 
+ Grupos, descrições, marcas... 
+ Uma tela com múltiplas abas para criar e editar dados dinâmicos usados em todo o restante do admin. As abas são: Usuários (grupos de acesso de clientes/equipe — Administrador, Clientes, Vendedor, Vendedor Marketplace — com alternâncias de Acesso ao admin/dashboard, indicador de vendedor e permissões detalhadas), Contatos, Endereços, Descrições, Marcas, Grades (grades de tamanho/atributo usadas nas variações de produto), Status de pedido (etapas personalizadas além das padrão), Categorias de movimentação (usadas para classificar movimentações da Carteira) e Atributos (atributos de produto personalizados).
+ Tela Grupos, descrições, marcas... na aba Usuários, mostrando os quatro grupos de acesso e suas alternâncias de Acesso ao admin/dashboard 
+ Configurações 
+ Templates de emails 
+ Lista os templates de e-mail transacional dinâmicos usados pelo sistema (rastreamento de pedido, confirmação de cadastro, solicitação de cancelamento, solicitação de avaliação de produto, notificação de nota fiscal e um template compartilhado de Cabeçalho/Rodapé), que podem ser editados para personalizar o texto e o layout de cada e-mail automático.
+ Tela Templates de emails, listando 14 templates como Avaliação de produto e Pedido inserido via integração 
+ Adicionar — cria um novo template de e-mail. 
+ Configurações 
+ Templates de impressão 
+ Lista os templates de impressão do sistema (orçamento, etiqueta de envio, cupom, pedido, além de um Cabeçalho e um Rodapé compartilhados), editados para personalizar o que é impresso em cada tipo de documento.
+ Tela Templates de impressão, listando Orçamento, Etiqueta Jadlog, Cupom, Etiqueta, Pedido, Rodapé e Topo 
+ Configurações 
+ Importações manual 
+ Lista as importações manuais de produtos ou pedidos já realizadas, com busca e filtros por Formato e Tipo; uma nova importação é iniciada por aqui, enviando um arquivo no formato esperado.
+ Tela Importações manual, vazia nesta loja, com os filtros de Formato e Tipo 
+ Adicionar — inicia uma nova importação manual. 
+ Configurações 
+ Exportações manual 
+ Lista as exportações manuais de produtos ou pedidos já geradas, com a mesma busca e filtros de Formato/Tipo das Importações manual, além de uma coluna de Data de exportação; uma nova exportação é gerada por aqui para download.
+ Tela Exportações manual, vazia nesta loja, com as colunas Formato, Tipo e Data de exportação 
+ Adicionar — gera uma nova exportação manual. 
+ 💡 Este é o fim do lote de seções autorizado para esta atualização (subseções de Personalizar, Canais, Integrações e Configurações). 
+ Anterior Integrações

@@ -1,0 +1,26 @@
+Documentação / Integrações 
+ 22. Integrações 
+ Central para conectar a loja a ferramentas e serviços externos. Dividida em cinco abas; esta tela é documentada apenas no nível das abas. 
+ Integrações 
+ Aba Integrações 
+ Mostra todas as integrações disponíveis na plataforma (gateways de pagamento, ERPs, serviços de entrega/logística, ferramentas de chat/avaliações, segurança, marketplaces e outras) como uma galeria de logos, navegável por categoria (Todos, Pagamentos, Estoques, Fretes, Chat, ERP, Análise, Segurança, Marketplace, Data feed, Dados fiscais).
+ Aba Integrações, mostrando a galeria de integrações disponíveis e a linha de filtro por categoria 
+ Integrações 
+ Aba Incorporar códigos 
+ Incorporar códigos são scripts que podem ser adicionados em determinadas páginas da plataforma (ex.: um pixel de rastreamento ou um widget personalizado), listados aqui com o Nome e o Local do script.
+ Aba Incorporar códigos, vazia nesta loja, com as colunas ID / Nome / Local / Ações 
+ Integrações 
+ Aba Plugins 
+ Plugins são praticamente o mesmo que Incorporar códigos, mas aqui já vêm pré-formatados: widgets prontos, vinculados a uma integração e um tipo específicos (ex.: um plugin de chat do WhatsApp), que só precisam ser ativados, sem escrever nenhum código.
+ Aba Plugins, mostrando o plugin padrão de Chat do WhatsApp 
+ Integrações 
+ Aba Datafeed 
+ Datafeed gerencia integrações de feed de produtos que exportam o catálogo da loja para serviços externos (ex.: Google Merchant), listadas com o Nome do feed e a integração à qual pertence.
+ Aba Datafeed, mostrando um feed do Google Merchant já configurado 
+ Integrações 
+ Aba Dados fiscais 
+ Dados fiscais gerencia integrações com serviços de nota fiscal/fiscais usados para emitir documentos fiscais dos pedidos, listadas com o ID e o Nome da integração.
+ Aba Dados fiscais, vazia nesta loja, com as colunas ID / Nome / Ações 
+ 💡 Integrações já está documentado no nível das abas, conforme a seção já autorizada. 
+ Anterior Canais 
+ Próximo Configurações

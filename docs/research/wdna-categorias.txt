@@ -1,0 +1,53 @@
+Documentação / Categorias 
+ 6. Produtos > Categorias 
+ Categorias organizam o catálogo de produtos em uma árvore (subcategorias são aninhadas com as mesmas ferramentas usadas na importação). Além de organizar a navegação, cada categoria também controla quais campos padrão e atributos personalizados ficam disponíveis para os produtos atribuídos a ela. 
+ Produtos > Categorias 
+ Lista de categorias 
+ Tela inicial da seção. Mostra todas as categorias cadastradas na loja. Não existe um botão manual de "adicionar categoria" — novas categorias são sempre criadas pela janela "Importar categorias" (ver próxima subseção).
+ Tela Produtos > Categorias, listando todas as categorias cadastradas 
+ Elemento 
+ Tipo 
+ Função 
+ Buscar Texto Busca pelo nome da categoria; digitar "##" entre nomes filtra por nível de aninhamento, a mesma sintaxe usada para montar subcategorias na importação. 
+ É catálogo Seleção Filtra categorias marcadas como "É catálogo" em seus atributos (ver "Atributos da categoria"). 
+ Exibir em menus Seleção Filtra pela categoria ser exibida ou não no menu de navegação da loja virtual. 
+ Categoria / Título / Descrição Colunas Nome interno, além do título e descrição voltados à loja virtual, definidos no formulário de edição (ambos opcionais). 
+ Exibir em menus Coluna Sim/Não Se esta categoria aparece atualmente no menu de navegação da loja virtual. 
+ Listar produtos — abre a lista de produtos filtrada por esta categoria. 
+ Atributos da categoria — abre o painel que controla quais campos de produto se aplicam a esta categoria (ver "Atributos da categoria"). 
+ Editar — abre o formulário de nome/título/descrição/SEO (ver "Editar categoria"). 
+ Deletar — remove a categoria permanentemente. 
+ Produtos > Categorias > Importar 
+ Importar categorias 
+ Aberta pelo botão "Importar" na lista de categorias. É a única forma de criar categorias — um nome por linha, com "##" entre nomes para aninhar uma subcategoria sob uma categoria pai (que é criada automaticamente caso ainda não exista).
+ Janela "Importar categorias", com o texto de exemplo explicando a sintaxe de aninhamento com ## 
+ Elemento 
+ Tipo 
+ Função 
+ Área de texto Texto de múltiplas linhas Uma categoria por linha; um nome simples cria uma categoria de nível principal, ex. "Eletro". Use "##" para aninhar, ex. "Eletro##Cozinha##Geladeira" cria (ou reaproveita) "Eletro", depois "Cozinha" dentro dela, depois "Geladeira" dentro dessa. 
+ Importar Botão Cria todas as categorias/subcategorias listadas; categorias já existentes com o mesmo nome/caminho são reaproveitadas, não duplicadas. 
+ 💡 Categorias recém-importadas começam sem título, descrição ou atributos definidos — edite cada uma depois (ver próximas subseções) para configurar isso. 
+ Produtos > Categorias > Editar 
+ Editar categoria 
+ Aberta pelo "Editar" no menu de ações de uma linha de categoria.
+ Formulário "Editar categoria", com nome, título, descrição, tags SEO e o toggle Exibir em menus 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Texto Nome interno, também usado para reconstruir o caminho ## ao reimportar. 
+ Título Texto Título voltado à loja virtual, exibido aos clientes; usa o Nome quando deixado em branco. 
+ Descrição Área de texto Descrição opcional voltada à loja virtual, para a página da categoria. 
+ Tags SEO Campo de tags Palavras-chave livres, adicionadas digitando e pressionando Enter, usadas para otimização em mecanismos de busca. 
+ Exibir em menus Alternância Exibe ou oculta a categoria do menu de navegação da loja virtual sem excluí-la. 
+ Produtos > Categorias > Atributos da categoria 
+ Atributos da categoria 
+ Aberta pelo "Atributos da categoria" no menu de ações de uma linha de categoria. Controla quais campos padrão de produto ficam habilitados para os produtos atribuídos a essa categoria, além de eventuais atributos personalizados específicos dela.
+ Painel "Atributos da categoria", com o checkbox É catálogo e a lista expandida de Campos padrões da plataforma 
+ Elemento 
+ Tipo 
+ Função 
+ É catálogo Checkbox Marca esta categoria como uma categoria de catálogo vendável (em vez de puramente organizacional/de menu). 
+ Campos padrões da plataforma Grupo de checkboxes SKU, Código de barras, Promoção, Estoque, Marca, Modelo, Kit, Variação, Produto físico, Armazenamento, Entrega e Preferências do produto — cada um alterna se aquele campo padrão fica disponível nos produtos desta categoria; "Marcar como categoria principal" define esta como a categoria principal do produto por padrão. 
+ Atributos personalizados Lista + botão Atributos específicos desta categoria (ex.: "Tamanho da tela" para uma categoria de Monitores); "Incluir novo atributo" abre o formulário para criar um. 
+ Anterior Estoques 
+ Próximo Clientes e usuários

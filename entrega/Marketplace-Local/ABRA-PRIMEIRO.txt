@@ -1,0 +1,21 @@
+MARKETPLACE LOCAL — PROTÓTIPO STANDALONE
+
+1. Extraia TODO o arquivo ZIP.
+2. Abra a pasta standalone.
+3. Clique com o botão direito em index.html > Abrir com > Google Chrome.
+
+Não precisa instalar Node.js, iniciar servidor ou ter internet. Imagens, fontes, estilos e scripts estão incorporados nos três HTML. O index.html incorpora também Quero Vender, Central de Vendedores e Administração. Os outros HTML são atalhos opcionais.
+
+LOGIN DEMONSTRATIVO DO VENDEDOR
+E-mail: lojista@exemplo.com
+Senha: Demo123!
+Use o botão Entrar com conta de demonstração na tela de login, ou preencha os dados acima e clique em Entrar.
+
+CONTEÚDO
+standalone/: versão pronta para abrir no navegador.
+codigo-fonte/: código original, documentação, pesquisas e arquivos do projeto.
+
+LIMITES
+Protótipo visual com dados fictícios, sem backend, pagamentos ou autenticação real. O login é uma simulação no navegador. Carrinho e favoritos podem reiniciar ao recarregar a home. Cadastro de compradores, endereços, pedidos, conversas e rascunhos são salvos apenas no navegador, sem servidor. O acesso sempre inicia deslogado; entre com o cadastro demonstrativo criado anteriormente. O compartilhamento entre arquivos locais depende do Chrome; para testar comprador e seller com persistência consistente, execute node server.mjs em codigo-fonte e abra http://localhost:4173/. O comportamento de armazenamento da sessão pode variar ao abrir arquivos locais. Não utilize senhas ou dados reais.
+
+As imagens são fotografias ilustrativas provenientes do Unsplash, incorporadas a pedido para visualização offline; não representam o estoque das lojas fictícias. As fontes vieram do Google Fonts.

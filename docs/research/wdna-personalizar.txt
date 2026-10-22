@@ -1,0 +1,240 @@
+Documentação / Personalizar 
+ 15. Personalizar > Temas 
+ Gerencia os temas visuais instalados na loja. Cada tema é um modelo autocontido (layout, sections, templates e assets) que pode ser vinculado a canais de venda específicos, editado diretamente pelo código subjacente, e exportado ou importado como um arquivo .zip. 
+ Personalizar > Temas 
+ Lista de temas 
+ Lista todos os temas instalados na loja (instalados pela galeria de temas ou por importação), mostrando a qual canal de venda cada um está vinculado e seu modelo base e versão. Um tema não vinculado a nenhum canal está disponível, mas não está ativo em nenhuma loja virtual no momento.
+ Tela Personalizar > Temas, listando os 8 temas instalados nesta loja 
+ Elemento 
+ Tipo 
+ Função 
+ ID / Nome Colunas O id interno do tema e o nome personalizado dado a ele nesta loja (editável, independente do nome do modelo base). 
+ Canais Coluna Qual(is) canal(is) de venda usa(m) este tema atualmente; um traço significa que o tema não está vinculado a nenhum canal. 
+ Tema / Versão Colunas O modelo base a partir do qual o tema foi criado, e seu número de versão. 
+ Editar — abre o editor do tema (abas Geral, Código, Importar ou Exportar). 
+ Deletar — remove o tema da loja. 
+ Personalizar > Temas 
+ Adicionar tema 
+ O botão "Adicionar" abre uma galeria de modelos de tema prontos (13 disponíveis no plano desta loja, todos marcados como "Grátis" aqui). Navegar pelo carrossel exibe uma prévia do layout de cada modelo antes de carregar uma cópia dele como um novo tema, editável de forma independente.
+ Galeria "Selecione o modelo do tema", mostrando a prévia do modelo Skate (1 de 13) 
+ Elemento 
+ Tipo 
+ Função 
+ Carrossel Prévia Clique nos pontos para navegar pela prévia da loja virtual, nome e versão de cada modelo de tema disponível. 
+ Carregar esse tema Botão Cria um novo tema, independente, nesta loja a partir do modelo selecionado — ele pode então ser personalizado sem afetar o modelo original. 
+ Personalizar > Temas 
+ Editar tema — Geral 
+ A aba "Geral" do editor de temas cobre as configurações que um usuário não desenvolvedor normalmente ajustaria: o nome de exibição do tema, qual configuração de vitrine e de menu ele usa, se as variações de produto são agrupadas nos resultados de busca, e as imagens de logo e favicon da loja.
+ Editor de tema, aba "Geral", mostrando o nome, vitrine, menu e logo do tema Wine 
+ Elemento 
+ Tipo 
+ Função 
+ Nome do tema Texto O nome de exibição mostrado na lista de temas; independente do nome do modelo base. 
+ Vitrines Seleção Qual configuração de vitrine (destaque de produtos) este tema exibe. 
+ Menus Seleção Qual configuração de menu (de Personalizar > Menus) este tema usa para a navegação da loja virtual. 
+ Agrupar grades na busca Seleção Quando ativado, as variações de um produto (ex.: cores/tamanhos diferentes do mesmo item) aparecem como um resultado agrupado em vez de listagens separadas. 
+ Logo / Favicon Upload de imagem O logo da loja exibido no cabeçalho do tema, e o pequeno ícone exibido na aba do navegador. 
+ Personalizar > Temas 
+ Editar tema — Código 
+ A aba "Código" é um editor de arquivos em nível de desenvolvedor para o código-fonte bruto do tema: uma árvore de arquivos (pastas assets, layout, sections, templates, além de um config.json na raiz) à esquerda, e um editor de código à direita para o arquivo que estiver aberto. É aqui que ocorre a personalização visual profunda, voltada a usuários confortáveis em editar o código do modelo diretamente.
+ Aba "Código", com o config.json aberto mostrando as definições de cor e ícones do tema 
+ Elemento 
+ Tipo 
+ Função 
+ Painel Arquivos Árvore de arquivos Navega pelas pastas do tema (assets, layout, sections, templates) e arquivos; o ícone "+" adiciona um novo arquivo. 
+ Editor de código Editor de texto Mostra o conteúdo do arquivo selecionado para edição direta (aqui, o config.json que define a cor e o conjunto de ícones SVG do tema). 
+ Borrar Botão Remove o arquivo atualmente aberto do tema. 
+ Salvar arquivo Botão Salva as alterações apenas do arquivo atualmente aberto (o botão "Salvar" no canto superior direito salva o tema inteiro). 
+ Personalizar > Temas 
+ Editar tema — Importar ou Exportar 
+ A aba "Importar ou Exportar" move todo o conjunto de arquivos de um tema para dentro ou fora da loja como um único arquivo .zip — útil para fazer backup de um tema, editá-lo em um editor de código externo, ou transferi-lo entre lojas. Um painel expansível "Observações" documenta o comportamento exato e traz links para um guia de estrutura de pastas e um emulador de tema para desenvolvimento local.
+ Aba "Importar ou Exportar", com o painel "Observações" expandido 
+ Elemento 
+ Tipo 
+ Função 
+ Observações Painel expansível Explica que a importação/exportação rodam em segundo plano (acompanhadas em Processos), que a exportação gera um .zip com a mesma estrutura de pastas do tema, que a importação espera essa mesma estrutura, e traz links para um guia de estrutura de pastas e um emulador de tema para download. 
+ Gerar download Botão Inicia uma exportação em segundo plano do tema como um arquivo .zip. 
+ Importar tema Botão Envia um arquivo .zip (com a mesma estrutura exportada) para substituir os arquivos deste tema. 
+ Baixar arquivo Botão Baixa o arquivo .zip da exportação mais recente já gerada. 
+ 16. Personalizar > Menus 
+ Gerencia os menus de navegação exibidos na loja virtual. Cada menu é montado manualmente (tipo "Personalizado", com itens digitados à mão e submenus aninhados) ou gerado a partir das categorias de produtos da loja (tipo "Categorias"). Um menu é vinculado a um tema pela aba "Geral" desse tema. 
+ Personalizar > Menus 
+ Lista de menus 
+ Lista todos os menus criados para a loja, mostrando a qual(is) canal(is) de venda cada um está vinculado e seu tipo (Personalizado ou Categorias). O botão "Adicionar" cria um novo menu, começando por perguntar qual dos dois tipos ele deve ser.
+ Tela Personalizar > Menus, listando os 3 menus configurados nesta loja 
+ Elemento 
+ Tipo 
+ Função 
+ ID / Nome Colunas O id interno do menu e o nome dado a ele. 
+ Canais Coluna Qual(is) canal(is) de venda usa(m) este menu (por meio de um tema vinculado a ele); um traço significa que nenhum canal o utiliza no momento. 
+ Tipo Coluna "Personalizado" para uma árvore de itens montada manualmente, ou "Categorias" para um gerado a partir das categorias de produtos da loja. 
+ Adicionar — solicita um Tipo (Personalizado ou Categorias), depois abre um novo menu em branco desse tipo para edição. 
+ Editar — abre o editor do menu, cujo layout depende do tipo do menu. 
+ Deletar — remove o menu da loja. 
+ Personalizar > Menus 
+ Editar menu — Tipo Personalizado 
+ Em um menu do tipo "Personalizado", os itens são digitados manualmente: cada linha tem um Nome e um Link (a URL/caminho de destino), um ícone "+" que aninha um novo item de submenu em branco logo abaixo, e um ícone de lixeira que remove a linha. O aninhamento pode continuar para montar menus suspensos de vários níveis na loja virtual.
+ Editor de menu de um menu do tipo "Personalizado", mostrando a lista de itens Nome/Link 
+ Clicar em "+" em um item revela uma linha de submenu aninhada e recuada, com seu próprio Nome/Link 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Texto O nome de exibição do próprio menu (mostrado na lista de menus, não na loja virtual). 
+ Sub-menus no front-end Seleção: Ocultar / Exibir Controla se os itens de submenu aninhados são exibidos como menus suspensos na loja virtual ou ocultados. 
+ Nome / Link do item Campos de texto O rótulo exibido no menu e a URL/caminho para o qual ele aponta. 
+ + Adicionar — adiciona um novo item de primeiro nível ao menu. 
+ + (ícone na linha) — aninha um novo item de submenu em branco logo abaixo dessa linha. 
+ Ícone de lixeira — remove esse item (e quaisquer itens de submenu aninhados nele). 
+ Personalizar > Menus 
+ Editar menu — Tipo Categorias 
+ Em um menu do tipo "Categorias", os itens não são digitados manualmente: um campo de busca adiciona uma categoria de produto ao menu (digitar ## entre os nomes a adiciona como um nível aninhado), e cada categoria já presente no menu aparece em uma tabela arrastável e reordenável. Cada linha pode ser ativada/desativada, e pode ter um ícone e um banner promocional (com título e descrição) anexados, tudo editado pela ação de editar da linha.
+ Editor de menu de um menu do tipo "Categorias", mostrando a tabela arrastável de categorias 
+ Clicar no ícone de editar em uma linha de categoria torna o título e a descrição do banner editáveis diretamente na linha 
+ Elemento 
+ Tipo 
+ Função 
+ Campo de busca Campo de texto Localiza e adiciona uma categoria de produto ao menu; separe níveis aninhados com "##". 
+ Nome Coluna O nome da categoria; as linhas podem ser arrastadas pela alça para reordenar (a linha "Todas as Categorias" fica fixa no topo). 
+ Ícone / Banner Upload de imagem Ícone pequeno e imagem de banner promocional opcionais para essa categoria no menu. 
+ Título / Descrição do banner Texto Título e texto opcionais exibidos sobre o banner da categoria; um traço significa que nenhum está definido. Editado diretamente na linha pelo ícone de editar. 
+ Editar (ícone na linha) — torna o título e a descrição do banner dessa linha editáveis diretamente; confirme ou cancele com a marca de confirmação/X que aparecem. 
+ 17. Personalizar > Vitrines 
+ Gerencia as "vitrines" que organizam seções (banners, carrosséis de produtos e blocos semelhantes) na página inicial e nas páginas de produto da loja virtual. Uma vitrine é vinculada a um tema pela aba "Geral" desse tema. 
+ Personalizar > Vitrines 
+ Lista de vitrines 
+ Lista todas as configurações de vitrine criadas para a loja, mostrando a qual(is) canal(is) de venda cada uma está vinculada.
+ Tela Personalizar > Vitrines, listando a configuração de vitrine da loja 
+ Elemento 
+ Tipo 
+ Função 
+ ID / Nome Colunas O id interno da vitrine e o nome dado a ela. 
+ Canais Coluna Qual(is) canal(is) de venda usa(m) esta vitrine (por meio de um tema vinculado a ela). 
+ Editar — abre o editor da vitrine. 
+ Personalizar > Vitrines 
+ Editar vitrine 
+ O editor de vitrine tem duas abas, "Home" e "Produto", cada uma com uma lista independente e arrastável de seções para aquela página da loja virtual. Cada linha de seção mostra uma prévia do modelo, seu tipo, e um seletor "Exibição" para definir se ela aparece no Desktop, Mobile, ou em ambos.
+ Editor de vitrine, aba "Home", listando as 5 seções configuradas para a página inicial 
+ Elemento 
+ Tipo 
+ Função 
+ Abas Home / Produto Abas Alterna entre a lista de seções da página inicial da loja virtual e a das páginas de produto. 
+ Exibição Seleção Se aquela seção aparece no Desktop, Mobile, ou em ambos. 
+ Alça de arrastar — reordena as seções na página. 
+ Editar seção ( ícone de lápis ) — abre as configurações dessa seção. 
+ Remover seção — exclui a seção da página. 
+ Personalizar > Vitrines 
+ Incluir seção 
+ O botão "Incluir seção" abre uma galeria de modelos de seção prontos (banners, carrosséis de produtos e layouts semelhantes) navegável por um carrossel; escolher um adiciona uma nova seção vazia desse tipo à lista da aba atual.
+ Galeria "Selecione o modelo da seção", mostrando a prévia do modelo "Lançamentos" 
+ Elemento 
+ Tipo 
+ Função 
+ Carrossel Prévia Clique nos pontos para navegar pela prévia de layout e o nome de cada modelo de seção disponível. 
+ Selecionar — adiciona uma nova seção vazia do modelo escolhido à lista, pronta para ser configurada. 
+ Personalizar > Vitrines 
+ Editar seção 
+ Editar uma seção define seu título e, separadamente para Desktop e Mobile, quais imagens (do Banco de imagens) preenchem cada um dos seus espaços de mídia.
+ Modal "Configurações da seção" da seção "Banner Full", com seus dois espaços de mídia desktop preenchidos 
+ Elemento 
+ Tipo 
+ Função 
+ Título da seção Texto O rótulo interno da seção (não aparece na loja virtual). 
+ Abas Desktop / Mobile Abas Define imagens diferentes para a mesma seção dependendo do dispositivo do visitante. 
+ Selecionar imagens Botão Abre o seletor do Banco de imagens para preencher os espaços de mídia da seção. 
+ 💡 Dentro de Personalizar, Vitrines já está documentado, conforme a seção já autorizada. 
+ 18. Personalizar > Banco de imagens 
+ Uma biblioteca de mídia central da loja: toda imagem enviada aqui pode ser reutilizada em vitrines, coleções de selos, temas e outras áreas, em vez de enviar o mesmo arquivo repetidamente. 
+ Personalizar > Banco de imagens 
+ Lista de mídias 
+ Lista todas as imagens enviadas ao banco de imagens da loja, com uma caixa de busca (procura por título, link ou etiqueta) e uma tabela mostrando a miniatura, o nome, o link direto e a(s) etiqueta(s) de busca de cada imagem.
+ Tela Personalizar > Banco de imagens, listando as imagens enviadas com suas etiquetas de busca 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Coluna A miniatura da imagem e o nome dado a ela; um traço significa que nenhum nome foi definido. 
+ Link Coluna A URL direta da imagem, utilizável fora do admin (ex.: em conteúdo de página ou banner personalizado). 
+ Tag de busca Coluna Um ou mais rótulos (ex.: "logo", "banner", "Pagamento") usados para filtrar essa imagem ao selecionar mídia em outras áreas, como em uma coleção de selos ou seção de vitrine. 
+ Adicionar mídia — envia um ou mais novos arquivos de imagem do computador. 
+ Mais opções > Remover em massa — exclui de uma vez todas as imagens marcadas. 
+ Ícone de link — abre o link direto da imagem. 
+ Deletar — remove essa imagem do banco de imagens. 
+ Personalizar > Banco de imagens 
+ Editar mídia 
+ O modal de edição define o Nome, o Link e uma ou mais Tags de busca da imagem — as mesmas tags usadas para filtrar essa imagem ao selecionar mídia em outras telas, como o seletor "Selecionar mídia" de uma coleção de selos.
+ Modal "Editar" de uma imagem, mostrando seu Nome, Link e a tag de busca "logo" 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Texto O nome de exibição da imagem na lista do banco de imagens. 
+ Link Texto Uma URL de destino opcional associada à imagem (usada quando a própria imagem funciona como um banner clicável). 
+ Tag de busca Campo multi-tag Um ou mais rótulos que facilitam encontrar e filtrar essa imagem ao selecionar mídia em outras áreas. 
+ 💡 Dentro de Personalizar, Banco de imagens já está documentado, conforme a seção já autorizada. 
+ 19. Personalizar > Coleção de selos 
+ Gerencia grupos nomeados de pequenas imagens de selo ("stamps") — logos de meios de pagamento ou ícones de rede social — normalmente exibidos juntos, por exemplo no rodapé da loja virtual. 
+ Personalizar > Coleção de selos 
+ Lista de coleções de selos 
+ Lista todas as coleções de selos criadas para a loja, mostrando a qual(is) canal(is) de venda cada uma está vinculada e seu Tipo (Pagamento ou Rede social).
+ Tela Personalizar > Coleção de selos, listando as duas coleções da loja 
+ Elemento 
+ Tipo 
+ Função 
+ ID / Nome Colunas O id interno da coleção e o nome dado a ela. 
+ Canais Coluna Qual(is) canal(is) de venda usa(m) esta coleção. 
+ Tipo Coluna "Pagamento" para selos de meios de pagamento ou "Rede social" para ícones sociais; definido na criação da coleção e não editável depois. 
+ Adicionar — cria uma nova coleção de selos vazia. 
+ Editar — abre o editor da coleção. 
+ Personalizar > Coleção de selos 
+ Editar coleção de selos 
+ O editor da coleção lista seus selos em ordem (imagem, nome e link opcional), cada um reordenável com as setas para cima/baixo e editável diretamente na linha. "Selecionar mídia" abre o Banco de imagens filtrado pelo próprio nome da coleção como tag, facilitando adicionar imagens correspondentes (ex.: toda imagem marcada com "Pagamento").
+ Editor da coleção "Pagamento padrão", listando seus 6 selos de bandeiras de pagamento 
+ Seletor "Selecionar mídia", pré-filtrado pela tag "Pagamento" compartilhada com o nome da coleção 
+ Elemento 
+ Tipo 
+ Função 
+ Imagem Coluna A miniatura do selo, escolhida do Banco de imagens. 
+ Nome Coluna O rótulo do selo (ex.: o nome da bandeira de pagamento ou rede social). 
+ Link Coluna Uma URL opcional para a qual o selo aponta quando clicado na loja virtual. 
+ Selecionar mídia — abre o Banco de imagens, pré-filtrado pelo nome da coleção como tag, para adicionar um selo. 
+ Setas para cima/baixo — reordenam esse selo dentro da coleção. 
+ Editar (ícone na linha) — torna o Nome e o Link desse selo editáveis diretamente na linha. 
+ Deletar — remove esse selo da coleção. 
+ Personalizar > Coleção de selos 
+ Adicionar coleção de selos 
+ Criar uma nova coleção pede apenas um Nome e um Tipo (Pagamento ou Rede social); o Tipo determina o que a coleção deve exibir, embora não restrinja quais imagens podem ser adicionadas a ela.
+ Modal "Adicionar coleção de selos", com o Tipo padrão em "Rede social" 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Texto O nome de exibição da coleção. 
+ Tipo Seleção: Pagamento / Rede social Define o Tipo da coleção, exibido na coluna da lista. 
+ 💡 Dentro de Personalizar, Coleção de selos já está documentado, conforme a seção já autorizada. 
+ 20. Personalizar > Páginas adicionais 
+ Gerencia páginas estáticas personalizadas (ex.: "Quem somos", "Fale conosco", "Política de privacidade") que aparecem na loja virtual fora da estrutura regular de produtos/categorias, organizadas sob agrupadores nomeados para os menus de ajuda/institucional do site. 
+ Personalizar > Páginas adicionais 
+ Lista de páginas 
+ Lista todas as páginas adicionais criadas para a loja, com filtros por Status e por Agrupador, mostrando o(s) canal(is) de venda, o Agrupador e o status de publicação de cada página (um check verde para publicada, um círculo vazio para um rascunho ainda não visível na loja virtual).
+ Tela Personalizar > Páginas adicionais, listando as 6 páginas agrupadas em "Ajuda e Suporte" e "Institucional" 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Coluna O título da página e, abaixo, um indicador de status (check verde = publicada, círculo vazio = rascunho). 
+ Agrupador Coluna O grupo nomeado ao qual essa página pertence, usado para organizar páginas no menu lateral da loja virtual. 
+ Adicionar — abre um formulário de página em branco. 
+ Editar (linha / link do ID) — abre o formulário dessa página para edição. 
+ Personalizar > Páginas adicionais 
+ Criar/editar página 
+ Criar e editar uma página usam o mesmo formulário: campos de metadados no topo (nome, título, agrupador, campos de SEO, URL e visibilidade no menu lateral) seguidos de um editor de texto rico completo para o Conteúdo da página, com formatação, alinhamento, listas, tabelas, links, imagens e vídeo incorporado.
+ Formulário de página "Fale conosco", mostrando os campos de metadados e a barra do editor de texto rico do Conteúdo 
+ Elemento 
+ Tipo 
+ Função 
+ Nome / Título Texto Nome é o rótulo interno; Título é exibido na página da loja virtual. 
+ Agrupador Texto O grupo nomeado sob o qual essa página é organizada no menu lateral da loja virtual. 
+ Tags para pesquisa Texto Palavras-chave opcionais que ajudam essa página a aparecer nas buscas/widgets de ajuda internos da loja virtual. 
+ Título / Descrição da meta tag Texto Campos de SEO usados por mecanismos de busca ao indexar a página. 
+ URL da página Texto (automático) O slug da página, gerado a partir do Título e exibido em cinza aqui. 
+ Agrupadores visíveis no menu lateral Seleção Quais páginas de agrupadores são listadas no menu lateral da loja virtual junto com esta. 
+ Menu lateral ativo Alternância Exibe ou oculta o menu lateral quando essa página está aberta na loja virtual. 
+ Conteúdo Editor de texto rico O corpo da página, com formatação, tabelas, links, imagens e vídeo incorporado, editável pela barra de ferramentas. 
+ Anterior Gestão 
+ Próximo Canais

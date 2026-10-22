@@ -1,0 +1,103 @@
+Documentação / Marketing 
+ 8. Marketing > Promoções 
+ Promoções aplicam regras de desconto automáticas a produtos no checkout, sem exigir um código — ao contrário de Cupons (a seguir), que exigem que o cliente informe um código. 
+ Marketing > Promoções 
+ Lista de promoções 
+ Tela inicial da seção. Mostra todas as promoções cadastradas na loja.
+ Tela Marketing > Promoções, com os filtros de busca/status/data e a tabela de promoções (vazia) 
+ Elemento 
+ Tipo 
+ Função 
+ Buscar Texto Busca por ID ou nome da promoção. 
+ Status / Início / Fim Seleção / Datas Filtra por ativo/inativo e por intervalo de datas de validade. 
+ Nome / Validade Colunas Nome da promoção e suas datas de início/fim configuradas (ou sem limite, se deixadas em branco). 
+ Editar — abre o mesmo formulário usado para criar uma promoção, com as configurações atuais. 
+ Deletar — remove a promoção permanentemente. 
+ Marketing > Promoções > Adicionar 
+ Criar promoção 
+ Aberta pelo "Adicionar promoção" na lista, ou pelo "Editar" de uma linha. O mesmo formulário é usado para criar e editar.
+ Formulário "Adicionar promoção" com "Desconto progressivo" selecionado, mostrando a tabela de regras de desconto e as seções Aplicar para / CEP 
+ Elemento 
+ Tipo 
+ Função 
+ Ativo Alternância Ativa ou desativa a promoção sem excluí-la. 
+ Nome Texto Nome interno usado para identificar a promoção na lista. 
+ Desconto Seleção "Leve 2 pague 1" e "Leve 3 pague 2" são descontos fixos por combo; "Desconto progressivo" revela uma tabela de "Regras de desconto" no lugar (ver abaixo). 
+ Início / Fim / Canais Datas / Seleção Período de validade (sem limite se deixado em branco) e a quais canais de venda a promoção se aplica (todos, se deixado em branco). 
+ Regras de desconto Tabela (só em Desconto progressivo) Só aparece em "Desconto progressivo". Alterna entre "Por valor do pedido" e "Por quantidade"; cada linha define um mínimo (valor ou quantidade de itens) e o percentual de desconto aplicado ao atingir aquele mínimo, permitindo empilhar várias faixas. 
+ Aplicar para Seleção + Incluir/Todos/Excluir Restringe a promoção a Produtos ou Categorias, e então a refina para itens específicos a incluir, todos eles, ou itens específicos a excluir. 
+ CEP Lista de faixas Restringe opcionalmente a promoção a uma ou mais faixas de CEP; "Adicionar" inclui outra faixa. 
+ 9. Marketing > Cupons 
+ Cupons aplicam um desconto quando o cliente informa um código no checkout — ao contrário de Promoções (anterior), que se aplicam automaticamente. 
+ Marketing > Cupons 
+ Lista de cupons 
+ Tela inicial da seção. Mostra todos os cupons cadastrados na loja.
+ Tela Marketing > Cupons, com os filtros de busca/status/data e a tabela de cupons (vazia) 
+ Elemento 
+ Tipo 
+ Função 
+ Buscar Texto Busca por ID, nome ou #código#. 
+ Status / Início / Fim Seleção / Datas Filtra por ativo/inativo e por intervalo de datas de validade. 
+ Nome / Código / Desconto / Validade Colunas O nome interno do cupom, o código que os clientes devem informar, o desconto que ele concede, e o período de validade configurado. 
+ Editar — abre o mesmo formulário usado para criar um cupom, com as configurações atuais. 
+ Deletar — remove o cupom permanentemente. 
+ Marketing > Cupons > Adicionar 
+ Criar cupom 
+ Aberta pelo "Adicionar cupom" na lista, ou pelo "Editar" de uma linha. O mesmo formulário é usado para criar e editar. O painel retrátil "Observações" no topo explica como cada tipo de desconto é calculado: os descontos percentual e valor fixo têm como base o valor total dos produtos, enquanto o frete grátis tem como base o valor do frete.
+ Formulário "Adicionar cupom", com o painel Observações expandido, os campos Nome/Código e as regras de desconto 
+ Elemento 
+ Tipo 
+ Função 
+ Nome / Código Texto Nome interno, e o código que o cliente digita no checkout para aplicar o desconto. 
+ Desconto Seleção Percentual, Valor fixo, ou Frete grátis. 
+ Exibir na página do produto Seleção Se o desconto do cupom é anunciado diretamente na página do produto. 
+ Valor mínimo do pedido Número Subtotal do pedido necessário para o cupom ser aceito. 
+ Limite de uso / Limite por cliente Número Máximo de usos no total, e máximo de usos por cliente individual; ambos ilimitados se deixados em branco. 
+ Início / Fim / Canais Datas / Seleção Período de validade e em quais canais de venda o cupom é aceito (sem limite/todos se deixado em branco). 
+ Restrições de pagamentos Seleção múltipla Restringe o cupom a formas de pagamento específicas configuradas na loja (ex.: Pix, cartão ou boleto de um gateway); todas as formas são aceitas se deixado em branco. 
+ Aplicar para Seleção + Incluir/Todos/Excluir Restringe o cupom a Produtos ou Categorias, e então o refina para itens específicos a incluir, todos eles, ou itens específicos a excluir. 
+ CEP Lista de faixas Restringe opcionalmente o cupom a uma ou mais faixas de CEP. 
+ 10. Marketing > Newsletter 
+ Lista todos que assinaram a newsletter da loja (ex.: por um formulário de cadastro na loja virtual). Esta seção é somente leitura quanto aos dados dos assinantes — não há uma ação manual de "adicionar assinante"; os registros aparecem automaticamente conforme os clientes aceitam. 
+ Marketing > Newsletter 
+ Lista de assinantes 
+ Única tela da seção. Lista todos os assinantes da newsletter, com a opção de exportar a lista.
+ Tela Marketing > Newsletter, com os filtros de busca/canal e a tabela de assinantes (vazia) 
+ Elemento 
+ Tipo 
+ Função 
+ Buscar por nome ou e-mail Texto Filtra a lista de assinantes. 
+ Canal Seleção Filtra pelo canal de venda pelo qual o assinante se cadastrou. 
+ Nome / E-mail / Telefone / Nascimento / Canal Colunas Dados de contato e demográficos coletados no cadastro, além do canal de origem. 
+ Exportar Botão Baixa a lista de assinantes atual (filtrada) como um arquivo, para uso em uma ferramenta externa de e-mail marketing. 
+ Deletar — remove um assinante da lista. 
+ 11. Marketing > Avaliações 
+ Gerencia as avaliações de produtos. As avaliações podem chegar automaticamente de clientes da loja virtual, ou ser adicionadas manualmente por um usuário admin — útil para dar a um produto novo uma prova social inicial. 
+ Marketing > Avaliações 
+ Lista de avaliações 
+ Lista todas as avaliações de produtos. Os filtros cobrem ID/título/SKU/nome do cliente, período, avaliação (estrelas), status de aprovação e canal; um painel adicional "Mais filtros" oferece apenas uma ordenação (Mais recente). Cada linha mostra o produto avaliado, a nota em estrelas, as informações do avaliador, o comentário e o status de aprovação.
+ Tela Marketing > Avaliações, com os filtros de busca/avaliação/aprovação/canal e a tabela de avaliações (vazia) 
+ Elemento 
+ Tipo 
+ Função 
+ #ID, título, ##SKU ou nome do cliente Texto Busca avaliações por ID do pedido/produto, título, SKU (prefixado com ##) ou pelo nome do cliente que avaliou. 
+ Período / Avaliação / Aprovação / Canal Filtros Restringem a lista por período de datas, avaliação em estrelas, status de aprovação (Aprovada/Não aprovada) ou canal de venda. 
+ Mais filtros Painel Abre um painel lateral com uma única opção extra: ordenação (Mais recente). 
+ ID / Produto / Avaliação / Informações / Comentário / Status Colunas O produto avaliado, a nota em estrelas dada, os dados do avaliador, o comentário escrito e se a avaliação está aprovada no momento. 
+ Editar — abre a avaliação para alterar a nota, o status ou o comentário. 
+ Deletar — remove a avaliação permanentemente. 
+ Marketing > Avaliações 
+ Adicionar avaliação manual 
+ O botão "Adicionar avaliação manual" abre um modal para um admin criar uma avaliação diretamente, sem esperar o envio de um cliente — útil para dar a um produto novo avaliações iniciais.
+ Modal "Adicionar avaliação manual", com o dropdown de status da avaliação aberto (Aprovada / Não aprovada) 
+ Elemento 
+ Tipo 
+ Função 
+ Produtos Seletor "Selecionar produtos" abre um seletor para escolher a quais produtos a avaliação se aplica. 
+ Canal Seleção O canal de venda ao qual a avaliação é atribuída. 
+ Avaliação Widget de 5 estrelas Clique em uma estrela para definir a nota da avaliação de 1 a 5. 
+ Status da avaliação Dropdown Aprovada / Não aprovada — controla se a avaliação fica visível publicamente na loja virtual. 
+ Usuário Texto Digite #id, nome ou e-mail para atribuir a avaliação a um cliente existente. 
+ Comentário Textarea O texto escrito da avaliação. 
+ Anterior Clientes e usuários 
+ Próximo Gestão

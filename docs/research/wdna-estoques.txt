@@ -1,0 +1,47 @@
+Documentação / Estoques 
+ 5. Produtos > Estoques 
+ Estoques representam os centros de distribuição / depósitos da loja (próprios ou de terceiros) — cada um com seu próprio prazo de entrega, e cada produto pode ter uma quantidade diferente disponível em cada estoque. É aqui que a disponibilidade física é gerenciada; a lista de "Produtos" só mostra o total combinado. 
+ Produtos > Estoques 
+ Lista de estoques 
+ Tela inicial da seção. Mostra todos os centros de distribuição/depósitos cadastrados na loja, uma linha por estoque. Assim como nas tabelas de preço, esta tela só gerencia os estoques em si; as quantidades por produto são definidas nas próximas subseções.
+ Tela Produtos > Estoques, listando todos os centros de distribuição/depósitos 
+ Elemento 
+ Tipo 
+ Função 
+ ID / Nome Texto Identificador e nome do estoque. 
+ Prazo mínimo/máximo Número + unidade Prazo estimado para este estoque preparar um pedido, em minutos/horas/dias; "Entrega imediata" quando deixado em branco. 
+ Tipo Tag "Físico" para um depósito operado diretamente pela loja, "Terceiros" para um estoque terceirizado/parceiro (ex.: um provedor de fulfillment). 
+ CEP Texto CEP do endereço de origem do estoque, usado para calcular o frete; definido pelo "Definir endereço de origem" nas ações da linha. 
+ Padrão Botão de alternância Marca o estoque usado quando nenhum outro se aplica; apenas um estoque pode ser Padrão. 
+ + Adicionar estoque Botão Abre o formulário para criar um novo estoque (ver "Criar/editar estoque"). 
+ Listar produtos — abre a lista de produtos deste estoque, onde a quantidade disponível de cada produto é definida (ver próxima subseção). 
+ Definir endereço de origem — cadastra o endereço postal de onde este estoque despacha, usado para o cálculo do frete. 
+ Editar — abre o mesmo formulário usado para criar um estoque, com as configurações atuais. 
+ Deletar — remove o estoque permanentemente. 
+ Produtos > Estoques > Adicionar/Editar 
+ Criar/editar estoque 
+ Aberta pelo botão "Adicionar estoque" ou pelo "Editar" no menu de ações da linha. Ambos usam o mesmo formulário.
+ Formulário "Adicionar estoque", com nome, tipo, prazo mínimo/máximo, unidade e o toggle Ativo 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Texto Nome interno usado para identificar o estoque na lista e nas abas da tela de quantidades por produto. 
+ Tipo Seleção Físico (depósito operado pela loja) ou Terceiros (estoque terceirizado). 
+ Prazo mínimo/máximo + Unidade Número + Seleção Faixa de prazo estimada para preparar um pedido a partir deste estoque, em minutos, horas ou dias. 
+ Ativo Alternância Ativa ou desativa o estoque sem excluí-lo. 
+ Produtos > Estoques > Listar produtos 
+ Quantidades do estoque e reajuste em massa 
+ Aberta pelo "Listar produtos" no menu de ações de um estoque. Mostra todos os produtos do catálogo com a quantidade total, disponível e reservada naquele estoque específico. Assim como nas tabelas de preço, as abas no topo apenas trocam qual estoque está sendo editado — são os mesmos estoques listados na subseção anterior.
+ Elemento Tipo Função 
+ Abas de estoques Abas Uma aba por estoque cadastrado na loja; trocar de aba carrega as quantidades daquele estoque para a mesma lista de produtos. 
+ Busca / filtros Texto / Seleção / Número Busca por ID, SKU, GTIN ou título, filtros por categoria e marca, além de uma faixa de quantidade Mínimo/Máximo; "Mais filtros" abre o mesmo painel lateral usado em outras telas de Produtos. 
+ Estoque total / Disponível / Reservado Colunas Quantidade total cadastrada, quantidade livre para venda e quantidade já comprometida com pedidos em aberto neste estoque; ∞ indica estoque ilimitado. 
+ Campo de quantidade Campo editável Define diretamente a quantidade disponível daquele produto; o ícone "+" soma à quantidade atual em vez de substituí-la, e o ícone de atualizar redefine o estoque total. 
+ Reajuste de estoque Ação em massa Altera em massa a quantidade de todos os produtos do filtro/busca atual de uma vez (ver abaixo). 
+ O botão "Reajuste de estoque" abre uma janela que aplica uma única alteração de quantidade a todos os produtos do filtro/busca atual neste estoque (todos os mais de 10 mil produtos por padrão, se nenhum filtro estiver ativo).
+ Elemento Tipo Função 
+ Ação Seleção "Adicionar quantidade" aumenta a quantidade disponível pelo valor informado; "Redefinir estoque total" fixa em um valor. 
+ Disponível Número Quantidade usada pela ação selecionada. 
+ Salvar Botão Executa o ajuste; a janela informa antecipadamente quantos produtos serão afetados. 
+ Anterior Tabelas de preço 
+ Próximo Categorias

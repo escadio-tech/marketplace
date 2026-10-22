@@ -1,0 +1,12 @@
+Documentação / Minhas lojas 
+ 1. Minhas lojas 
+ O atalho "Minhas lojas" no menu esquerdo abre a loja virtual (o site público, voltado ao cliente) associada ao admin. 
+ Minhas lojas > Menu lateral 
+ Link de acesso à loja virtual 
+ O comportamento depende de quantas lojas ativas a conta tem em Canais :
+ Exemplo com multilojas ativado: "Minhas lojas" se expande em um dropdown listando cada loja ativa 
+ Apenas uma loja ativa — clicar em "Minhas lojas" abre diretamente o site público dessa loja em uma nova aba. 
+ Mais de uma loja ativa (multilojas) — quando mais de um canal de venda está ativo em Canais, "Minhas lojas" vira um dropdown/submenu com o nome de cada loja ativa; clicar no nome de uma loja abre o site público daquela loja específica em uma nova aba. 
+ 💡 No exemplo capturado acima, a conta tem duas lojas ativas (Papelaria e Farmácia), cada uma com seu próprio domínio de loja virtual. 
+ Anterior Visão geral 
+ Próximo Pedidos

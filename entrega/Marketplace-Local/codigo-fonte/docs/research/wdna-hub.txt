@@ -1,0 +1,33 @@
+{% comment %} Conteúdo inicial: hub. JS troca pelo fragmento do módulo. {% endcomment %}
+ Documentação interna do admin 
+ Painel Administrativo — Guia de Referência 
+ Guia de referência das principais telas, campos e ações do painel administrativo: Pedidos, Produtos, Preços, Estoques, Categorias, Clientes e usuários, Marketing (Promoções, Cupons, Newsletter, Avaliações) e Gestão (Carteira, Movimentações, Relatórios). Inclui capturas de tela e a função de cada campo, filtro e botão, em três idiomas. 
+ Módulos : Pedidos, Produtos, Preços, Estoques, Categorias, Clientes e usuários, Marketing, Gestão 
+ Navegar por módulo 
+ Escolha um módulo abaixo. Só o conteúdo daquele tópico é carregado — a documentação inteira não precisa baixar de uma vez. 
+ Minhas lojas 
+ → 
+ Pedidos 
+ → 
+ Produtos 
+ → 
+ Tabelas de preço 
+ → 
+ Estoques 
+ → 
+ Categorias 
+ → 
+ Clientes e usuários 
+ → 
+ Marketing 
+ → 
+ Gestão 
+ → 
+ Personalizar 
+ → 
+ Canais 
+ → 
+ Integrações 
+ → 
+ Configurações 
+ →

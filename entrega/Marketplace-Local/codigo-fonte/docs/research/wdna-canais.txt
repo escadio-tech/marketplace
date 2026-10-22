@@ -1,0 +1,132 @@
+Documentação / Canais 
+ 21. Canais 
+ Gerencia os canais de venda conectados à loja: a própria loja virtual, marketplaces (ex.: Mercado Livre), ERPs (ex.: Bling) e canais genéricos de API/teste. Cada canal tem sua própria tabela de preço, mapeamento de produtos e fluxo de pedidos. 
+ Canais 
+ Lista de canais 
+ Lista todos os canais já conectados à loja, com busca por nome e filtro por Tipo, mostrando o Tipo e o Status (Ativo/Inativo) de cada canal.
+ Tela Canais, listando canais como Bling, Mercado Livre e a própria loja virtual 
+ Elemento 
+ Tipo 
+ Função 
+ Tipo Coluna O tipo do canal (marketplace, ERP, API genérica, loja virtual etc.). 
+ Coluna Ativo / Inativo Se o canal está atualmente sincronizando pedidos/produtos. 
+ Adicionar — abre o modal "Adicionar canal" para conectar um novo canal. 
+ Editar (linha / link do ID) — abre a tela de configuração desse canal. 
+ Canais 
+ Adicionar canal 
+ Adicionar um canal pede apenas o Tipo no primeiro passo (ex.: Loja virtual, Mercado Livre, Bling, Api, Grid2b, Agendamento de exportação, entre outros); depois de escolher o Tipo e confirmar, a plataforma abre a tela de configuração própria desse canal.
+ Modal "Adicionar canal", com o dropdown de Tipo padrão em "Loja virtual" 
+ Elemento 
+ Tipo 
+ Função 
+ Tipo Seleção Qual tipo de canal conectar; determina os campos mostrados na tela seguinte (credenciais de API, chaves de aplicativo do marketplace etc.). 
+ Canais 
+ Configurar canal 
+ Cada canal abre sua própria tela de configuração, específica do seu Tipo. Um canal de marketplace como o Mercado Livre, por exemplo, mostra abas de Dados gerais (nome, tabela de preço, credenciais do aplicativo e token de acesso, com um botão para renovar a autorização), Mapeamentos, Produtos, Estoque, Pedidos, Anúncios, Gestão, Perguntas/Chat e Contato/Notificações — outros tipos de canal mostram um conjunto de abas diferente e mais enxuto, de acordo com o que essa integração suporta.
+ Tela de configuração do canal Mercado Livre, mostrando a aba Dados gerais com as credenciais do aplicativo e o conjunto completo de abas específicas do marketplace 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Texto O nome de exibição do canal na lista e no restante do admin. 
+ Tabela de preço Seleção Qual tabela de preço os produtos/pedidos desse canal usam. 
+ ID do aplicativo / Client Secret / Token de acesso Texto Credenciais emitidas pela plataforma externa (marketplace, ERP etc.) que autenticam essa conexão; "Renovar autorização" atualiza um token expirado. 
+ Canais > Loja virtual 
+ Canal Loja virtual — Dados gerais 
+ O canal do tipo "Loja virtual" representa a própria vitrine da loja. A aba "Dados gerais" concentra os padrões do canal como um todo: tema, modo de exibição, tabela de preço/estoque/frete/pagamento padrão, selos, exibição de moeda, domínios, documentos aceitos, emissor de nota fiscal e regras de checkout.
+ Canal "Loja virtual" — aba Dados gerais, metade superior: nome, tema, modo de exibição e padrões do canal 
+ Canal "Loja virtual" — aba Dados gerais, metade inferior: valores em destaque, domínios, documentos, NFe e checkout 
+ Elemento 
+ Tipo 
+ Função 
+ Nome / Tema Texto / Seleção O nome de exibição do canal e qual tema de vitrine ele usa. 
+ Modo de exibição Select B2C ou B2B — muda o comportamento de catálogo/checkout para compradores consumidores ou empresas. 
+ Padrões do canal Tabela de preço, Estoque, Frete, Pagamento, Páginas adicionais, Códigos incorporados, Plugins Recursos padrão aplicados no canal como um todo, salvo substituição em outro ponto. 
+ Selos Rede social / Pagamento / Outros Quais conjuntos de selos (de Personalizar > Coleção de selos) aparecem na vitrine para redes sociais, pagamento e outros selos de confiança. 
+ Valores em destaque Símbolo de moeda / Destaque primário / secundário Símbolo de moeda exibido nos preços, e quais campos de preço (ex.: parcelamento, desconto PIX) são destacados na página do produto. 
+ Domínios Lista Domínios personalizados apontados para este canal; um é marcado como padrão. 
+ Documentos aceitos e ativação CPF/CNPJ + interruptor Quais tipos de documento os clientes podem usar no cadastro, e se novas contas são ativadas automaticamente. 
+ NFe Emissor / interruptor de emissão automática Qual integração de emissão de nota fiscal é usada e se as notas são emitidas automaticamente por pedido. 
+ Checkout Qtd. mín. de produtos, seleção de vendedor, regras de documento/senha Tamanho mínimo do carrinho, se o cliente escolhe um vendedor, se documentos aceitos são exigidos no checkout, e se uma senha é criada automaticamente no cadastro. 
+ Canais > Loja virtual 
+ Canal Loja virtual — SEO 
+ Configurações de mecanismo de busca da vitrine: título da página, tags de pesquisa, meta description, conteúdo do robots.txt e sitemap.
+ Canal "Loja virtual" — aba SEO: título, tags de pesquisa, meta description, robots.txt e sitemap 
+ Elemento 
+ Tipo 
+ Função 
+ Título / Tags para pesquisa Texto O título de página da vitrine e as palavras-chave que os buscadores associam a ela. 
+ Meta description Área de texto O trecho exibido abaixo do título nos resultados de busca. 
+ Arquivo robots.txt Área de texto Regras que dizem aos robôs de busca o que eles podem indexar. 
+ Sitemap Interruptor automático + link Com Automático ativado, o sitemap é gerado e mantido pela plataforma; clicar no link notifica o Google sobre atualizações. 
+ Canais > Loja virtual 
+ Canal Loja virtual — Contato/Notificações 
+ Os dados de contato/endereço da própria loja e o conjunto completo de modelos de e-mail transacionais enviados a clientes, vendedores e ao próprio canal.
+ Aba Contato/Notificações, topo: telefone, e-mail, endereço e e-mail para cópia de notificações 
+ Aba Contato/Notificações: tabela completa de modelos de e-mail (cabeçalho/rodapé, corpo e regras de CCO/CC por evento) 
+ Elemento 
+ Tipo 
+ Função 
+ Telefone / E-mail / Endereço Texto Os dados de contato da própria loja, exibidos em e-mails e, quando aplicável, na vitrine. 
+ E-mail para cópia de notificações Texto (múltiplos) Endereços extras que recebem cópia de todo e-mail de notificação. 
+ Tabela de modelos de e-mail Lista Uma linha por evento do sistema (pedido inserido, redefinição de senha, mudança de status, envio, nota fiscal, cancelamento, orçamento, avaliação de produto etc.); em cada uma, escolha o modelo de cabeçalho/rodapé e de corpo e marque se o canal (CCO), o vendedor (CCO) e/ou o cliente (CC) recebem o e-mail. 
+ Canais > Loja virtual 
+ Canal Loja virtual — Cotação 
+ Cadastra uma ou mais cotações de moeda usadas para converter e exibir preços em uma segunda moeda na vitrine e no checkout.
+ Canal "Loja virtual" — aba Cotação, expandida, mostrando a tabela de cotações vazia e "Adicionar cotação" 
+ Elemento 
+ Tipo 
+ Função 
+ + Adicionar cotação Botão Cadastra uma nova cotação de moeda (símbolo e valor). 
+ Tabela de cotações Símbolo / Valor / Padrão Uma linha por cotação cadastrada; marque uma como padrão para a exibição inicial, e use as setas da linha para reordenar. 
+ Canais > Loja virtual 
+ Canal Loja virtual — Horários 
+ Grade de horário de funcionamento semanal usada para mostrar a loja como aberta/fechada e, quando ativado, para limitar o agendamento de entregas.
+ Canal "Loja virtual" — aba Horários: grade por dia da semana e opções 
+ Elemento 
+ Tipo 
+ Função 
+ Linhas de dia da semana Caixa de seleção + campos de hora Para cada dia: habilitar/desabilitar e definir os horários de Abertura, Início do intervalo, Final do intervalo e Fechamento. 
+ Exibir como fechado Select Como a vitrine sinaliza que está fora do horário de funcionamento. 
+ Agendar entregas / Margem de horas para agendar Seleção / Número Se os clientes podem escolher uma janela de horário de entrega no checkout, e a antecedência mínima (em horas) exigida para agendar. 
+ Canais > Api 
+ Canal Api 
+ Um tipo de canal genérico para conectar sistemas externos diretamente pela API própria da WDNA, usando credenciais OAuth2 (client credentials) em vez de uma integração pronta de marketplace/ERP. Útil para integrações sob medida ou testes.
+ Tela de configuração do canal Api: Client ID e Client Secret (mascarados aqui), com link para a documentação da API WDNA 
+ Elemento 
+ Tipo 
+ Função 
+ Observações Painel de informação Link para a documentação externa da API WDNA, para quem vai construir a integração. 
+ Nome Texto O nome de exibição do canal. 
+ Client ID / Client Secret Texto (somente leitura) As credenciais OAuth2 emitidas para este canal, usadas para autenticar as requisições à API. 
+ Renovar credenciais Botão Revoga o Client Secret atual e emite um novo — qualquer integração usando o valor antigo para de funcionar imediatamente. 
+ 💡 A própria tradução da plataforma para inglês/espanhol nesta tela cai para chaves de campo não traduzidas (ex.: "Channel api client id") — isso é uma característica da plataforma ao vivo, não uma lacuna da documentação. 
+ Canais > Bling 
+ Canal Bling — Dados gerais e autorização 
+ O canal Bling conecta a loja ao ERP Bling. A aba "Dados gerais" concentra as credenciais do aplicativo OAuth2 e o botão que inicia o fluxo de autorização do Bling; o banner no topo leva às instruções de configuração do próprio Bling.
+ Canal Bling — aba Dados gerais: API key, Client ID/Secret, "Autorizar aplicação" e a URL de redirecionamento OAuth 
+ Elemento 
+ Tipo 
+ Função 
+ Banner de informação Link "Para configurar a integração clique aqui" — abre a tela de cadastro de aplicativo do próprio Bling em uma nova aba. 
+ Nome / API key Texto O nome de exibição do canal e a API key gerada do lado do Bling. 
+ Client ID / Client Secret Texto As credenciais do aplicativo OAuth2 criadas no painel de desenvolvedor do Bling para esta integração. 
+ Autorizar aplicação Botão Inicia o fluxo de consentimento OAuth2 do lado do Bling para vincular as duas contas. 
+ URL de redirecionamento OAuth Texto (copiar) A URL de callback para colar no cadastro do aplicativo no Bling, para que ele devolva o controle após a autorização. 
+ Canais > Bling 
+ Canal Bling — Módulos de sincronização 
+ Além de Dados gerais, o canal Bling tem cinco abas de módulo de sincronização (Produtos, Estoque, Pedidos, Categorias, Clientes) mais uma aba Contato/Notificações idêntica à do canal loja virtual. Cada módulo de sincronização segue o mesmo padrão: um interruptor de Status (Habilitado/Desabilitado) e, no caso de Estoque e Pedidos, uma URL de retorno que precisa ser cadastrada do lado do Bling para que esses dados voltem para a loja.
+ Aba Produtos: Status, identificador do produto (SKU/GTIN) e a lista de produtos sincronizados 
+ Aba Estoque: aviso de URL de retorno, Status, saldo de estoque e as caixas de mapear estoques/estoque negativo 
+ Aba Pedidos: aviso de URL de retorno (JSON urlencoded), Status e a lista de pedidos sincronizados 
+ Elemento 
+ Tipo 
+ Função 
+ Produtos Status + Identificador do produto Habilita a sincronização de produtos e define se o casamento é feito por SKU ou outro identificador; mostra a lista de produtos sincronizados. 
+ Estoque Status + Saldo de estoque Habilita a sincronização de estoque; "Mapear estoques" vincula depósitos específicos, e "Permitir estoque negativo" deixa o saldo ficar abaixo de zero. 
+ Pedidos Status Habilita a sincronização de pedidos com o Bling; exige que a URL de retorno seja cadastrada do lado do Bling com o tipo de callback "JSON (urlencoded)". 
+ Categorias Status Habilita a sincronização de categorias entre a loja e o Bling. 
+ Clientes Status Habilita a sincronização de clientes entre a loja e o Bling. 
+ Contato/Notificações Igual ao da loja virtual Formulário idêntico ao da aba Contato/Notificações do canal loja virtual (ver acima): endereço, e-mail para cópia de notificações e a tabela de modelos de e-mail. 
+ 💡 Canais já está documentado, conforme a seção já autorizada. 
+ Anterior Personalizar 
+ Próximo Integrações

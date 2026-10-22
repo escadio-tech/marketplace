@@ -1,0 +1,97 @@
+Documentação / Pedidos 
+ 2. Pedidos 
+ O módulo Pedidos concentra todas as vendas da loja: lista e busca de pedidos, emissão de notas fiscais, criação manual de pedidos/orçamentos e a tela de edição de cada pedido (produtos, frete, pagamento, endereço e dados do cliente). 
+ Pedidos > Lista 
+ Lista de pedidos 
+ Tela inicial da seção. Mostra um resumo por status, a busca/filtros rápidos e a tabela com todos os pedidos.
+ Tela Pedidos > Lista, com o resumo de status e a tabela de pedidos 
+ Elemento 
+ Tipo 
+ Função 
+ Cards de status Indicador / atalho Pendente, Aprovado, Processando, Enviado, Finalizado, Cancelado — mostram a quantidade de pedidos em cada status; clicáveis para filtrar a tabela. 
+ Busca Text "#ID do pedido, ##SKU/título do produto, nome/e-mail/telefone do cliente" — busca livre por número do pedido, SKU/título do produto ou nome, e-mail ou telefone do cliente. 
+ Data / Status / Status de pagamento / Canal Select Filtros padrão por intervalo de data, etapa do pedido, Pago/Não pago e canal de venda. 
+ Mais filtros Painel lateral Abre um painel lateral com critérios adicionais: bairro, cidade, cupom, UF, tipo de frete, forma de pagamento, vendedor, status de nota fiscal, intervalo de valor do pedido e ordenação. 
+ Tabela Lista Colunas: Pedido (#ID, link), Status (dropdown interativo — permite mudar o status e o substatus do pedido direto da lista, ex.: Enviado → Em transporte / Em processo de troca / Em processo de devolução / Solicitação de cancelamento, sem abrir o pedido), Data, Clientes (nome + e-mail), Pagamento (Pago/Não pago), Total, Método (ícone com detalhe do meio de pagamento), Ações (menu ⋮). 
+ + Criar Pedido/Orçamento Botão Abre a tela de criação manual de um novo pedido ou orçamento (ver seção 1.6). 
+ Mais opções Menu Ativo ao selecionar 1+ pedidos pela caixinha; ações em massa (ver seção 1.7). 
+ Pedidos > Lista > Mais filtros 
+ Filtros avançados 
+ Painel lateral acionado pelo botão "Mais filtros", com critérios adicionais de busca.
+ Painel lateral "Mais filtros" com critérios adicionais de busca 
+ Elemento 
+ Tipo 
+ Função 
+ Bairro / Cidade / UF Texto (múltiplos) Filtra pela localização do endereço de entrega. 
+ Cupom Select Filtra pedidos que usaram um cupom de desconto específico. 
+ Frete Select Filtra pelo tipo/transportadora de frete usado. 
+ Status de repasse do subpedido Select Filtra pelo status de repasse (acerto financeiro) do subpedido ao vendedor. 
+ Pagamento / Substatus Select Filtra pelo método de pagamento usado ou por uma etapa secundária dentro do status principal. 
+ Vendedor Select Filtra pedidos de um vendedor específico. 
+ Com nota fiscal Select Filtra pedidos que já têm (ou não) nota fiscal emitida. 
+ Etiqueta Select Filtra pelo status da etiqueta de envio (ex.: emitida, impressa). 
+ Valor do pedido Intervalo (mín/máx) Filtra pedidos dentro de um valor total mínimo e máximo. 
+ Com produto não vinculado Select Filtra pedidos que contêm um produto não vinculado/mapeado no catálogo (tem um tooltip de informação explicando o critério). 
+ Ordenar por Select Define a ordem de exibição da tabela (padrão: Mais recente). 
+ Cancelar / Buscar Botões Cancelar fecha o painel sem aplicar; Buscar aplica os filtros selecionados. 
+ Pedidos > #ID > Editar 
+ Detalhe / edição do pedido 
+ Tela aberta ao clicar em um pedido na lista. Reúne todos os dados do pedido: produtos, frete, descontos, taxas, pagamento, movimentações financeiras, endereço de entrega, dados do cliente e observações. É a mesma estrutura usada para criar um pedido manualmente (seção 1.6).
+ Bloco / campo Tipo Função 
+ Tabela de preço Select Define a tabela de preços aplicada ao pedido. 
+ Canal de venda Select Canal pelo qual o pedido entrou. 
+ Status / Status adicional / Status de pagamento Select Etapa atual do pedido, um detalhe complementar de status e a situação do pagamento (Pago/Não pago). 
+ Produtos Busca + tabela Campo de busca para adicionar itens; tabela com Produto (nome, ID, SKU), Preço, Quantidade e Total por item; exibe o Subtotal dos produtos. 
+ Frete Bloco Método de frete, valor e data prevista de entrega. Os dois ícones ao lado do valor abrem os detalhes de rastreio/nota e permitem associar produtos específicos a esse frete. 
+ Endereço de entrega Painel lateral País, Recebedor, CEP, Rua, Número, Complemento, Bairro, Cidade e Estado. 
+ Desconto / Taxa Blocos Observação, percentual e valor de um desconto ou de uma taxa adicional aplicada ao pedido. 
+ Detalhes do cliente Painel lateral Cliente (seleção + link para o cadastro), Nome, E-mail, Telefone (DDI + número), Documento e Documento secundário (RG, IE ou Isento). 
+ Pagamento Bloco Método de pagamento usado, valor, botão Reembolsar e um ícone pequeno que exibe o histórico de notificações enviado pela integradora de pagamento. Exibe Desconto de pagamento, Total pago e Total do pedido. 
+ Informações adicionais Painel lateral Observações livres do pedido. 
+ Movimentações Bloco expansível Lançamentos financeiros do pedido (ex.: custo com frete, total do pedido); cada linha pode ser expandida para editar Categoria, Valor e Descrição. Exibe o Total líquido final. 
+ Salvar pedido Botão Grava as alterações feitas no pedido. 
+ Pedidos > #ID > Ações 
+ Menu de ações do pedido 
+ Botão "Ações" no topo da tela de detalhe do pedido.
+ Deletar — exclui o pedido permanentemente. 
+ Imprimir etiqueta — gera a etiqueta de envio. 
+ Imprimir pedido — gera um comprovante/resumo do pedido para impressão. 
+ Imprimir cupom — gera o cupom fiscal/comprovante de venda. 
+ Selecionar vendedor — atribui o pedido a um vendedor. 
+ Pedidos > NF 
+ Notas fiscais (aba NF) 
+ Segunda aba da tela de Pedidos, dedicada ao controle de emissão de notas fiscais.
+ Elemento 
+ Tipo 
+ Função 
+ Instruções Botão Explica como funciona a emissão automática e manual da nota: ela usa o frete do pedido e os produtos vinculados a ele; a emissão automática exige ativação por canal e status do pedido Em preparação ou superior. 
+ Busca / Status Texto / Select Busca por pedido ou número da nota, e filtro pela situação de emissão da nota. 
+ Tabela Lista Colunas: #ID / Status do pedido, Nome do frete, Emissão do pedido, Número da nota fiscal, Nota (ícone de documento), Status da nota (badge), Ações. 
+ Ícone de ações Modal Abre o formulário para gerar a nota fiscal eletrônica (NFe) daquele pedido — dados de transportador, volumes e informações fiscais adicionais, todos opcionais. 
+ Pedidos > Adicionar 
+ Criar pedido/orçamento 
+ Aberta pelo botão "+ Criar Pedido/Orçamento" na lista. Usa exatamente os mesmos blocos da tela de detalhe (seção 1.3), em branco, para montagem manual de um pedido ou orçamento.
+ Elemento 
+ Tipo 
+ Função 
+ Salvar orçamento Botão Salva como orçamento (proposta ainda não confirmada como venda). 
+ Salvar pedido Botão Confirma e grava como pedido de venda. 
+ Pedidos > Lista 
+ Ações em massa e ações por linha 
+ Duas formas de executar ações rápidas direto na lista, sem abrir o pedido. 
+ Selecione 1+ pedidos pela caixinha e clique em "Mais opções" 
+ Imprimir pedido 
+ Imprimir cupom 
+ Imprimir etiqueta 
+ Gerar etiqueta 
+ Cancelar etiqueta 
+ Alteração de status em massa — altera o status de todos os pedidos selecionados de uma vez. 
+ Clique nos 3 pontinhos (⋮) na coluna "Ações" de uma linha 
+ Editar — abre o pedido para edição. 
+ Imprimir pedido 
+ Imprimir etiqueta 
+ NF/Rastreio — acesso rápido à nota fiscal e rastreio do envio. 
+ Gerar etiqueta 
+ Cancelar etiqueta 
+ Anterior Minhas lojas 
+ Próximo Produtos

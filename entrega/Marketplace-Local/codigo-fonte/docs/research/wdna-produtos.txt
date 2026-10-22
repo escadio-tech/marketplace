@@ -1,0 +1,129 @@
+Documentação / Produtos 
+ 3. Produtos > Produtos 
+ O módulo Produtos gerencia o catálogo da loja: lista e busca de produtos, dados gerais / preço / estoque / imagens de cada produto e a criação manual de produtos. Esta seção cobre o submenu "Produtos"; Tabelas de preço, Estoques e Categorias são documentados à parte. 
+ Produtos > Lista 
+ Lista de produtos 
+ Tela inicial da seção. Mostra a caixa de busca, os filtros rápidos e a tabela com todos os produtos do catálogo.
+ Tela Produtos > Lista, com a caixa de busca, filtros e a tabela de produtos 
+ Elemento 
+ Tipo 
+ Função 
+ Busca Text "#ID, ##SKU, GTIN ou título" — busca livre por ID, SKU, código de barras ou título do produto. 
+ Categoria / Marca / Status / Estoque Select Filtros padrão por categoria do produto, marca, status ativo/inativo e situação de estoque. 
+ Mais filtros Painel lateral Abre um painel lateral com critérios adicionais (ver próxima subseção). 
+ Tabela Lista Colunas: Produto (imagem, título, ID, SKU, múltiplo e estoque total), Categoria / Marca, Tipo (Padrão / Kit / Monte o seu), Preço / Promoção, Ações (menu ⋮). 
+ + Adicionar produto Botão Abre a tela de criação manual de um novo produto (ver subseção "Criar produto"). 
+ Mais opções Menu Ativo ao selecionar 1+ produtos pela caixinha; ações em massa (ver "Ações em massa e por linha"). 
+ Produtos > Lista > Mais filtros 
+ Filtros avançados 
+ Painel lateral acionado pelo botão "Mais filtros", com critérios adicionais de busca no catálogo.
+ Painel lateral "Mais filtros", com critérios de tipo de produto, condição, armazenagem e categoria/marca 
+ Elemento 
+ Tipo 
+ Função 
+ Data Intervalo de data Filtra pela data de cadastro do produto. 
+ Tipo do produto / Produto composição do tipo Select Filtra por Padrão, Kit ou Monte o seu, e pelo tipo de composição usado. 
+ Condição Select Filtra pela condição do produto (ex.: Novo). 
+ Centro de distribuição Select Filtra produtos vinculados a um centro de distribuição específico. 
+ Armazenagem múltipla Texto (múltiplos) Filtra por um ou mais códigos de armazenagem, separados por vírgula. 
+ Contém categoria / Contém marca Select Filtra produtos que têm (ou não) categoria ou marca definida. 
+ Cancelar / Buscar Botões Cancelar fecha o painel sem aplicar; Buscar aplica os filtros selecionados. 
+ Produtos > Editar > Dados gerais 
+ Aba Dados gerais 
+ Aberta ao clicar no nome de um produto na lista, ou pelo "Editar" no menu de ações da linha. A tela de edição tem abas para Dados gerais, SEO, Variações, Kit, Monte o seu, Relacionados e Atributos; esta subseção cobre a aba principal "Dados gerais", que reúne as informações centrais do produto. As demais abas são cobertas a seguir.
+ Bloco / campo Tipo Função 
+ Título Text Nome do produto, exibido no catálogo e na loja virtual. 
+ SKU / Código de barras (GTIN/EAN) Text Código de referência interno e o código de barras do produto. 
+ Preço de custo / Margem / Preço Currency / % Preço de custo, percentual de margem e o preço de venda resultante (calculados em conjunto). 
+ Preço promoção / Quantidade em estoque Currency / Number Preço promocional opcional, e a quantidade de estoque disponível (ou ilimitado, quando o produto não controla estoque). 
+ Categoria Lista Uma ou mais categorias vinculadas ao produto; uma delas pode ser marcada como Principal. 
+ Marca / Modelo Text Marca e modelo do produto, usados para busca e filtros. 
+ Visível em buscas Select Se o produto aparece na busca interna da loja virtual. 
+ NCM / MPN / Classificação tributária / Condição / Fornecedor Texto / Select Dados fiscais e de fornecedor usados para emissão de nota e gestão interna. 
+ Descrição Texto rico Descrição completa do produto, com editor de texto rico (formatação, listas, tabelas). 
+ Armazenamento: Unidade / Múltiplo Select / Número Unidade de venda (ex.: UN) e o múltiplo vendido por unidade. 
+ Tipo do produto Select Físico ou Digital — define se as dimensões de frete se aplicam. 
+ Peso / Largura / Comprimento / Altura Number Dimensões físicas usadas para calcular o custo de frete. 
+ Imagem Upload Arraste e solte ou "Buscar imagens" para adicionar fotos do produto; a primeira imagem/marcada é a Principal, exibida no catálogo. 
+ Produtos > Editar > SEO 
+ Aba SEO 
+ Campos de otimização para buscadores da página pública do produto na loja virtual.
+ Aba SEO: tags, título, URL e meta descrição 
+ Elemento 
+ Tipo 
+ Função 
+ Tags SEO Texto (múltiplos) Palavras-chave livres do produto, adicionadas uma a uma ao pressionar Enter. 
+ Título SEO Text Substitui o título de página usado pelos buscadores; usa o título do produto quando vazio. 
+ URL SEO Text O slug da URL pública do produto no domínio da loja virtual. 
+ Meta tag description Text Descrição curta exibida pelos buscadores abaixo do título da página nos resultados. 
+ Produtos > Editar > Variações 
+ Aba Variações 
+ Usada apenas em produtos do tipo "Padrão", para cadastrar variações do mesmo produto (ex.: cores ou tamanhos diferentes) em forma de grade. Não é usada nos tipos "Kit" ou "Monte o seu". Este catálogo não tem, no momento, nenhum produto com variações configuradas, então a tela abaixo mostra seu estado padrão/vazio.
+ Aba Variações em seu estado padrão: composição das grades e "Adicionar grade" 
+ Composição das grades — painel expansível que mostra os atributos de variação (ex.: Cor, Tamanho) depois de criados. 
+ Adicionar grade — cria um novo atributo de variação e seus valores possíveis, gerando uma linha de produto por combinação. 
+ Mudar padrão de sku — permite que cada variação gerada use um padrão de SKU customizado em vez do padrão. 
+ Produtos > Editar > Kit 
+ Aba Kit 
+ Usada apenas em produtos do tipo "Kit", para reunir vários produtos já existentes vendidos juntos por um preço único. Não é usada nos tipos "Padrão" ou "Monte o seu". Este catálogo não tem, no momento, nenhum produto do tipo Kit, então a tela abaixo mostra seu estado padrão/vazio.
+ Aba Kit em seu estado padrão: campos de preço e a lista de componentes vazia 
+ Elemento 
+ Tipo 
+ Função 
+ Preço de custo / Preço padrão Currency Custo e preço de venda do kit como um todo. 
+ Desconto promocional / Preço promoção % / Currency Desconto opcional aplicado ao preço do kit. 
+ Selecione um produto / Incluir em massa Busca / Botão Adiciona os produtos já existentes que compõem o kit, um a um ou em massa. 
+ Tabela: Produto / Quantidade / Preço / Info Lista Cada produto componente adicionado ao kit, com a quantidade incluída e seu preço individual. 
+ Produtos > Editar > Monte o seu 
+ Aba Monte o seu 
+ Usada apenas em produtos do tipo "Monte o seu", para configurar as seções e opções que o cliente escolhe para montar o produto na loja virtual (ex.: um kit escolar em que o cliente escolhe o caderno, os lápis, a borracha etc.). É a aba mais complexa, já que cada seção configurável funciona como uma pequena lista de produtos com regras próprias. 
+ Bloco / campo Tipo Função 
+ Preço padrão / Preço de custo Currency Preço base do produto montado e seu custo. 
+ Desconto promocional / Preço promoção % / Currency Desconto opcional aplicado ao produto montado como um todo. 
+ Promoção componentes Toggle Quando ativado, os preços promocionais definidos nos produtos componentes individuais também são aplicados aqui. 
+ Ocultar preço inicial Toggle Oculta o preço inicial "a partir de" na loja virtual, mostrando apenas o preço final calculado. 
+ Adicionar seção Botão Cria uma nova seção configurável (ex.: "Caderno", "Lápis") da qual o cliente escolherá produtos. 
+ Produtos distintos / Qtd. mínima / Qtd. máxima Number Quantos produtos diferentes o cliente pode escolher nesta seção, e a quantidade total mínima/máxima. 
+ Tipo de seleção / Visualização Select / Toggle Como as opções são apresentadas ao cliente, e se a seção inicia expandida na loja virtual. 
+ Selecione um produto / Incluir em massa Busca / Botão Adiciona os produtos disponíveis como opções nesta seção, um a um ou em massa. 
+ Tabela: Produto / Inicial / Min / Max / Preço / Link Lista Cada produto opção da seção, sua quantidade padrão/mín/máx selecionável, seu impacto no preço e se está ativo (Link). 
+ 💡 Cada seção configurável pode ser arrastada para reordenar, renomeada pelo ícone de lápis, expandida/recolhida pela seta, e removida pelo ícone de lixeira — no exemplo capturado, o produto tem 9 seções (Livro, Borracha, Mochila, Cola, Canetas, Cadernos, Lápis de cor, Estojo, Sulfite), cada uma com sua própria lista de produtos opção configurada como mostrado acima. 
+ Produtos > Editar > Relacionados 
+ Aba Relacionados 
+ Vincula outros produtos já existentes como itens relacionados, exibidos junto com este produto na loja virtual (cross-sell). Disponível para qualquer tipo de produto.
+ Elemento 
+ Tipo 
+ Função 
+ Selecione um produto / Incluir em massa Busca / Botão Adiciona produtos relacionados, um a um ou em massa. 
+ Tabela: Produto Lista Cada produto relacionado já vinculado; vazia ("Selecione um produto") até que ao menos um seja adicionado. 
+ Produtos > Editar > Atributos 
+ Aba Atributos 
+ Dados extras de chave/valor anexados ao produto, divididos em atributos padrão definidos pela plataforma e atributos adicionais de formato livre.
+ Aba Atributos: tabela de atributos predeterminados e busca de atributos adicionais 
+ Elemento 
+ Tipo 
+ Função 
+ Atributos predeterminados Lista (Nome / Valor / Descrição / Ações) Atributos fixos definidos pela plataforma (ex.: comportamento do botão comprar, desconto máximo por forma de pagamento, upload de arquivo no checkout) que podem ser editados individualmente pelo ícone de lápis. 
+ Atributos adicionais Busca + lista (Nome / Valor / Ações) Atributos personalizados de formato livre, buscados e adicionados pelo nome, cada um com seu próprio valor e ações de adicionar/editar/remover. 
+ Produtos > Adicionar 
+ Criar produto 
+ Aberta pelo botão "+ Adicionar produto" na lista. Usa os mesmos blocos da tela de detalhe (subseção anterior), em branco, para o cadastro manual de um novo produto.
+ Elemento 
+ Tipo 
+ Função 
+ Status Toggle Ativa ou mantém o produto inativo (oculto na loja virtual) já na criação. 
+ Salvar Botão Cria o produto com os dados preenchidos na aba Dados gerais (e nas demais abas usadas). 
+ Produtos > Lista 
+ Ações em massa e ações por linha 
+ Duas formas de executar ações rápidas direto na lista, sem abrir o produto. 
+ Selecione 1+ produtos pela caixinha e clique em "Mais opções" 
+ Remover em massa — remove permanentemente todos os produtos selecionados. 
+ Adicionar categoria em massa — atribui uma categoria a todos os produtos selecionados de uma vez. 
+ Adicionar marca em massa — atribui uma marca a todos os produtos selecionados de uma vez. 
+ Clique nos 3 pontinhos (⋮) na coluna "Ações" de uma linha 
+ Editar — abre o produto para edição. 
+ Desativar — oculta o produto da loja virtual sem excluí-lo. 
+ Ir ao produto — abre a página pública do produto na loja virtual em uma nova aba. 
+ Remover — exclui o produto permanentemente. 
+ Anterior Pedidos 
+ Próximo Tabelas de preço

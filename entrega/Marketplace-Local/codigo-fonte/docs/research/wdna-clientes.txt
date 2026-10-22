@@ -1,0 +1,110 @@
+Documentação / Clientes e usuários 
+ 7. Clientes e usuários 
+ Esta seção lista, em um só lugar, todos os clientes e usuários administrativos/da equipe cadastrados — ambos compartilham o mesmo tipo de registro e a mesma lista, distinguidos pelo "Grupo de usuários" (ex.: "Clientes" x um grupo interno da equipe). Cada registro centraliza dados de contato, endereços, tabela de preço/canal atribuídos, segurança e uma carteira por usuário. 
+ Clientes e usuários 
+ Lista de clientes 
+ Tela inicial da seção. Mostra todos os clientes/usuários com um resumo do histórico de pedidos.
+ Tela Clientes e usuários, listando todos os clientes/usuários cadastrados 
+ Elemento 
+ Tipo 
+ Função 
+ Buscar Texto Busca por ID, nome, documento, telefone ou e-mail. 
+ Status / Tipo Seleções Filtra por ativo/inativo e por tipo de pessoa: Pessoa física, Pessoa jurídica ou Pessoa estrangeira. 
+ Mais filtros Painel lateral Bairro, cidade, UF, data de cadastro/último pedido, gênero, grupo de usuários, quantidade mínima de pedidos, tabela de preço, vendedor e valor gasto mínimo, além da ordenação. 
+ Último pedido / Pedidos / Total Colunas Há quanto tempo foi o último pedido, quantos pedidos ao todo, e o valor total gasto. 
+ Editar — abre o registro completo do cliente (ver "Criar/editar cliente" e as abas de detalhe abaixo). 
+ Deletar — remove o cliente/usuário permanentemente. 
+ Clientes e usuários > Adicionar 
+ Criar/editar cliente 
+ Aberta pelo "Criar cliente/usuário" na lista. O painel esquerdo traz o perfil principal; o painel direito tem abas de contatos, endereço, configuração de vendas e segurança. Clicar no nome de um cliente já existente na lista, por outro lado, abre um layout diferente e mais completo — coberto em "Detalhe do cliente" abaixo, a partir da subseção Visão geral.
+ Formulário "Adicionar clientes e usuários", com o painel de perfil e a aba Contatos/Login 
+ Elemento 
+ Tipo 
+ Função 
+ Status Alternância Ativa ou desativa a conta sem excluí-la. 
+ Nome / Apelido Texto Nome completo, além de um apelido/identificador interno opcional. 
+ Tipo de pessoa + Documento Seleção + Texto Pessoa física (CPF), Pessoa jurídica (CNPJ) ou Pessoa estrangeira, além de um campo de documento secundário (RG, isento, etc.). 
+ Gênero / Data de nascimento Seleção / Data Campos demográficos opcionais. 
+ Observações Área de texto Anotações internas livres sobre o cliente. 
+ Aba Contatos / Login Aba Adiciona contatos de telefone/e-mail, cada um opcionalmente vinculado a um canal de venda específico; usados para login e notificações. 
+ Aba Endereço Aba Cadastra um ou mais endereços de entrega; um pode ser marcado como Padrão. 
+ Aba Configuração geral Aba Grupo de usuários, tabela de preço, vendedor, canais de venda e tabelas de preço adicionais, além do opt-in de e-mail marketing. 
+ Aba Segurança Aba Alteração de senha, autenticação de dois fatores e API keys com permissões deste usuário. 
+ Clientes e usuários > Editar 
+ Detalhe do cliente — Visão geral 
+ Clicar no nome de um cliente na lista abre um layout diferente do formulário de criação: o painel esquerdo vira um card de resumo somente leitura (nome, documento, gênero, data de nascimento) com um botão "Editar", e o painel direito ganha duas abas a mais — "Pedidos efetuados" e "Carteira" — além das quatro cobertas abaixo. "Editar" abre os mesmos campos do perfil principal (nome, documento, gênero, data de nascimento, observações) em uma janela, além de um interruptor de Status e um botão "Deletar" que não existem no formulário de criação.
+ Janela "Editar usuário", aberta pelo card de resumo: imagem de perfil, Status, Deletar e os mesmos campos principais do formulário de criação 
+ Elemento 
+ Tipo 
+ Função 
+ Status Alternância Ativa ou desativa a conta sem excluí-la. 
+ Deletar Botão Remove o cliente/usuário permanentemente; disponível apenas quando o cliente já existe. 
+ Nome, Documento, Gênero, Data de nascimento, Observações Igual à criação Mesmos campos documentados em "Criar/editar cliente" acima, já preenchidos com os valores existentes. 
+ Clientes e usuários > Editar > Contatos/Login 
+ Detalhe do cliente — Contatos/Login 
+ Aba padrão ao abrir um cliente já existente. Lista todos os contatos de telefone/e-mail usados para login e notificações, cada um opcionalmente vinculado a um canal de venda.
+ Aba Contatos/Login, expandida, com o painel "Dica" e os contatos cadastrados do cliente 
+ Elemento 
+ Tipo 
+ Função 
+ Dica Painel de informação Explica a regra de login: só contatos vinculados ao canal (ou sem nenhum vínculo de canal) podem ser usados para entrar naquele canal. 
+ + Adicionar contato Botão Adiciona uma nova linha de contato (tipo, valor e canal). 
+ Tipo / Valor / Canal Seleção / Texto / Seleção E-mail ou telefone, o valor do contato, e a qual canal de venda ele está vinculado (ou nenhum, para permitir login em todos os canais). 
+ Clientes e usuários > Editar > Endereço 
+ Detalhe do cliente — Endereço 
+ Lista todos os endereços cadastrados para o cliente, recolhidos por padrão; um deles é marcado como Padrão. Expandir uma linha mostra o formulário completo para edição.
+ Aba Endereço, um endereço expandido: Tipo, País, Recebedor, CEP, Rua, Número, Complemento, Bairro, Cidade, UF, Latitude/Longitude e "Usar como padrão" 
+ Elemento 
+ Tipo 
+ Função 
+ + Adicionar novo endereço Botão Adiciona um novo formulário de endereço vazio para preencher e salvar. 
+ Tipo / País Seleção Entrega ou Cobrança, e o país do endereço. 
+ Recebedor / CEP / Rua / Número / Complemento / Bairro / Cidade / UF Texto Campos padrão de endereço; o CEP preenche automaticamente a maior parte dos outros quando reconhecido. 
+ Latitude / Longitude Número (automático) Geocodificadas automaticamente a partir do endereço; usadas em recursos de raio de entrega e mapa. 
+ Usar como padrão / Deletar / Salvar Alternância + Botões Marca este como o endereço padrão do cliente, remove-o permanentemente, ou salva as alterações nele. 
+ Clientes e usuários > Editar > Configuração geral 
+ Detalhe do cliente — Configuração geral 
+ Configurações relacionadas a vendas que determinam quais preços, estoque e vendedor se aplicam aos pedidos deste cliente.
+ Aba Configuração geral: grupo de usuários, tabela de preço, vendedor, canais de venda, tabelas de preço adicionais e e-mail marketing 
+ Elemento 
+ Tipo 
+ Função 
+ Grupo de usuários Select A qual grupo de clientes esta conta pertence (afeta regras de visibilidade/preço vinculadas a grupos). 
+ Tabela de preço Select A tabela de preço principal aplicada aos pedidos deste cliente. 
+ Vendedor Select O vendedor associado a este cliente, se houver. 
+ Canais de venda Seleção (múltipla) A quais canais este cliente está associado. 
+ Tabelas de preço adicionais Seleção (múltipla) Tabelas de preço extras que este cliente também pode ver/usar além da principal. 
+ E-mail marketing Alternância Se este cliente optou por receber e-mails de marketing. 
+ Clientes e usuários > Editar > Segurança 
+ Detalhe do cliente — Segurança 
+ Configurações de login e credenciais de acesso deste cliente/usuário: senha, autenticação de dois fatores e API keys pessoais.
+ Aba Segurança: alterar senha, autenticação de dois fatores e a tabela de API keys do usuário 
+ Elemento 
+ Tipo 
+ Função 
+ Nova senha Campo de senha Define uma nova senha para o login deste cliente/usuário. 
+ Ativar autenticação Botão Inicia a configuração de autenticação de dois fatores para esta conta. 
+ + Nova API key Botão Cria uma API key com as permissões deste próprio usuário, para integrações pessoais. 
+ Tabela de API keys Nome / Último uso / Criado em / Ações Lista as API keys deste usuário, cada uma revogável individualmente. 
+ Clientes e usuários > Editar > Pedidos efetuados 
+ Detalhe do cliente — Pedidos efetuados 
+ Disponível apenas quando o cliente já existe (não aparece no formulário de criação). Resume e lista todos os pedidos feitos por este cliente, em todos os canais de venda.
+ Aba "Pedidos efetuados", com as estatísticas de resumo e a tabela de histórico de pedidos 
+ Elemento 
+ Tipo 
+ Função 
+ Pedidos / Total / Ticket médio / Último pedido Cards de resumo Quantidade de pedidos, valor total gasto, valor médio por pedido, e há quanto tempo foi o último pedido. 
+ Pedido / Data / Canal / Status / Total Colunas Cada linha leva diretamente à tela de detalhe daquele pedido, na seção Pedidos. 
+ Clientes e usuários > Editar > Carteira 
+ Detalhe do cliente — Carteira 
+ Disponível apenas quando o cliente já existe. Mostra o extrato individual de crédito de loja deste cliente (ex.: reembolsos emitidos como crédito, ajustes manuais) e permite à equipe adicionar lançamentos manuais pelo "Gerenciar carteira".
+ Janela "Gerenciar carteira", para adicionar um lançamento manual de crédito ou débito a este cliente 
+ Elemento 
+ Tipo 
+ Função 
+ Tipo Seleção Crédito (soma ao saldo do cliente) ou Débito (subtrai do saldo). 
+ Moeda / Valor Seleção / Número Moeda e valor do lançamento. 
+ Descrição Área de texto Anotação interna explicando o motivo do lançamento manual. 
+ Adicionar Botão Cria o lançamento; ele se aplica somente a este cliente e o destinatário não pode ser alterado depois. 
+ Anterior Categorias 
+ Próximo Marketing

@@ -1,0 +1,52 @@
+Documentação / Tabelas de preço 
+ 4. Produtos > Tabelas de preço 
+ As tabelas de preço permitem vender o mesmo catálogo com preços, margens e condições diferentes — por exemplo, uma tabela por canal de venda, ou uma tabela especial restrita a clientes com determinado tipo de documento (CPF/CNPJ). Cada produto pode ter custo, margem, preço e preço promocional definidos de forma independente em cada tabela. 
+ Produtos > Tabelas de preço 
+ Lista de tabelas de preço 
+ Tela inicial da seção. Mostra todas as tabelas de preço cadastradas na loja, uma linha por tabela. Cada tabela funciona como uma lista de preços separada, que depois pode ser aplicada a um canal de venda ou a um grupo de clientes — esta tela só gerencia as tabelas em si, não os preços individuais dos produtos (ver próximas subseções).
+ Tela Produtos > Tabelas de preço, listando todas as tabelas de preço 
+ Menu de ações da linha, aberto pelos 3 pontinhos (⋮) na coluna "Ações" 
+ Elemento 
+ Tipo 
+ Função 
+ ID / Nome Texto Identificador e nome da tabela; clicar no nome também abre a edição. 
+ Documentos Tag Para quais tipos de documento de cliente (CPF, CNPJ, CNPJ com IE, estrangeiro) esta tabela vale; "Padrão do canal" significa sem restrição. 
+ Custo Texto Base usada para calcular o preço: o preço de custo do próprio produto, ou o preço de outra tabela. 
+ Margem / Valor mínimo Número Percentual de markup padrão aplicado sobre o custo, e um preço mínimo opcional para a tabela. 
+ Padrão Botão de alternância Marca a tabela usada quando nenhuma outra se aplica; apenas uma tabela pode ser Padrão, e ela não pode ser excluída. 
+ + Adicionar tabela Botão Abre o formulário para criar uma nova tabela de preço (ver "Criar/editar tabela"). 
+ Listar produtos — abre a lista de produtos desta tabela, onde custo/margem/preço de cada produto pode ser definido (ver próxima subseção). 
+ Editar — abre o mesmo formulário usado para criar uma tabela, com as configurações atuais. 
+ Clonar — cria uma cópia da tabela, incluindo os preços já definidos para cada produto. 
+ Deletar — remove a tabela permanentemente; desabilitado para a tabela Padrão. 
+ Produtos > Tabelas de preço > Adicionar/Editar 
+ Criar/editar tabela 
+ Aberta pelo botão "Adicionar tabela" ou pelo "Editar" no menu de ações da linha. Ambos usam o mesmo formulário.
+ Formulário "Adicionar tabela", com nome, documentos, base de custo, margem padrão e valor mínimo 
+ Elemento 
+ Tipo 
+ Função 
+ Nome Texto Nome interno usado para identificar a tabela na lista e nas abas da tela de produtos. 
+ Documentos Multisseleção Restringe a tabela a clientes com CPF, CNPJ, CNPJ com IE e/ou documentos estrangeiros; deixe vazio para o padrão do canal. 
+ Custo Seleção "Produto" calcula a partir do preço de custo do próprio produto; "Tabela de preço" calcula a partir do preço resultante de outra tabela. 
+ Margem padrão Número (%) Percentual de markup aplicado sobre o custo para sugerir o preço de cada produto nesta tabela. 
+ Valor mínimo Moeda Preço mínimo opcional para os produtos desta tabela. 
+ Ativo Alternância Ativa ou desativa a tabela sem excluí-la; só aparece ao editar uma tabela existente. 
+ Produtos > Tabelas de preço > Listar produtos 
+ Produtos da tabela e reajuste em massa 
+ Aberta pelo "Listar produtos" no menu de ações de uma tabela. Mostra todos os produtos do catálogo com custo, margem, preço e preço promocional naquela tabela específica, tudo editável direto na linha. As abas no topo (uma por tabela de preço) são apenas um atalho para trocar qual tabela está sendo editada — não são telas diferentes, apenas as mesmas tabelas de preço descritas nas subseções anteriores.
+ Elemento Tipo Função 
+ Abas de tabelas Abas Uma aba por tabela de preço cadastrada na loja; trocar de aba carrega os preços daquela tabela para a mesma lista de produtos. 
+ Busca / filtros Texto / Seleção Busca por ID, SKU, GTIN ou título, além de filtros por categoria, marca e status do produto nesta tabela; "Mais filtros" abre um painel lateral com critérios adicionais (centro de distribuição, condição, armazenagem, estoque, imagens, etc.), semelhante aos filtros da própria lista de produtos. 
+ Custo / Margem / Preço Campos editáveis Valores por produto nesta tabela; alterar o custo ou a margem recalcula o preço (e vice-versa). 
+ Desc. promo / Preço promoção Campos editáveis Desconto promocional (%) opcional e o preço promocional resultante, mostrado ao cliente nesta tabela. 
+ Ativar / Desativar / Salvar tudo Botões Ativar/Desativar valem para os produtos selecionados nesta tabela; Salvar tudo grava todos os preços editados na página. 
+ Reajuste Ação em massa Altera em massa custo, margem, preço ou desconto/preço promocional de todos os produtos do filtro/busca atual de uma vez (ver abaixo). 
+ O botão "Reajuste" abre uma janela de edição em massa, que aplica uma única alteração a todos os produtos do filtro/busca atual nesta tabela (todos os mais de 10 mil produtos por padrão, se nenhum filtro estiver ativo) — útil para ajustar uma tabela inteira de uma vez, em vez de produto por produto.
+ Elemento Tipo Função 
+ Ação Seleção O que alterar: ex. acrescentar/descontar um valor fixo no preço ou na margem, definir o preço ou a margem para um valor fixo, ou alterar o % de desconto promocional. 
+ Valor Número Valor ou percentual usado pela ação selecionada. 
+ Aplicar Botão Executa o ajuste; a janela informa antecipadamente quantos produtos serão afetados, e avisa que os produtos além da primeira página são processados em uma fila em segundo plano. 
+ 💡 Os 5 ícones na coluna "Ações" da linha: um ícone de energia para ativar/desativar o produto naquela tabela específica; um ícone de relógio para agendar uma promoção (mostra "Sem promoção" e fica desabilitado enquanto não há preço promocional definido); uma estrela para o prazo do destaque; um olho para "sob consulta" (oculta o preço e pede que o cliente entre em contato com a loja); e um ícone de camadas para a venda por atacado. 
+ Anterior Produtos 
+ Próximo Estoques
