@@ -1,5 +1,7 @@
 $ErrorActionPreference = 'Stop'
 $projectRoot = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
+& node (Join-Path $projectRoot 'scripts\build-project-review.mjs')
+if ($LASTEXITCODE -ne 0) { throw 'Falha ao gerar documentação e revisão' }
 $deliveryRoot = Join-Path $projectRoot 'entrega\Marketplace-Local'
 $sourceDestination = Join-Path $deliveryRoot 'codigo-fonte'
 New-Item -ItemType Directory -Force -Path $sourceDestination | Out-Null

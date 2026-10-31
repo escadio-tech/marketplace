@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 const root = path.resolve(fileURLToPath(new URL('./prototype/', import.meta.url)));
-const types = { '.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.svg':'image/svg+xml' };
+const types = { '.html':'text/html; charset=utf-8', '.css':'text/css', '.js':'text/javascript', '.svg':'image/svg+xml', '.mp4':'video/mp4', '.webm':'video/webm', '.jpg':'image/jpeg', '.png':'image/png' };
 http.createServer(async (req,res) => {
   try {
     const route = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
@@ -14,3 +14,4 @@ http.createServer(async (req,res) => {
     res.end(data);
   } catch { res.writeHead(404); res.end('Não encontrado'); }
 }).listen(4173, '127.0.0.1', () => console.log('Protótipo: http://127.0.0.1:4173'));
+

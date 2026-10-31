@@ -1,0 +1,851 @@
+{
+  "date": "2026-10-30",
+  "entries": [
+    {
+      "id": "home",
+      "area": "Comprador",
+      "title": "Página inicial",
+      "url": "standalone/index.html",
+      "description": "Localização por CEP, busca, menus com subcategorias, 12 categorias, vitrines, carrosséis por setas/arraste, mosaicos, banners e acesso às lojas.",
+      "access": "Informe cidade e CEP para visualizar o catálogo.",
+      "limit": "Catálogo ilustrativo; contagens e alguns textos antigos podem estar desatualizados."
+    },
+    {
+      "id": "search",
+      "area": "Comprador",
+      "title": "Busca e listagem",
+      "url": "standalone/index.html#/busca",
+      "description": "Busca textual, ordenação, filtros e cobertura por CEP. Produtos de lojas fora da cobertura são ocultados.",
+      "access": "",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "filters",
+      "area": "Comprador",
+      "title": "Filtros laterais",
+      "url": "standalone/index.html#/busca",
+      "description": "Painel à direita com categoria, marca, cidade, loja, característica e faixa de preço.",
+      "access": "Clique em Mostrar filtros. Não possui URL própria.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "location",
+      "area": "Comprador",
+      "title": "Cidade e CEP",
+      "url": "standalone/index.html",
+      "description": "Localização persistida para cobertura, frete e preenchimento inicial do cadastro.",
+      "access": "Clique na localização do cabeçalho. Não possui URL própria.",
+      "limit": "Faixas de CEP e trajetos são demonstrativos; sem integração geográfica real."
+    },
+    {
+      "id": "shipping",
+      "area": "Comprador",
+      "title": "Frete e prazo",
+      "url": "standalone/index.html#/produto/0",
+      "description": "Consulta lateral, entrega local, retirada e regra administrativa de gratuidade.",
+      "access": "Na página do produto, clique em calcular frete e prazo.",
+      "limit": "Distância de teste e tempo parametrizado; não consulta rotas reais."
+    },
+    {
+      "id": "cart",
+      "area": "Comprador",
+      "title": "Sacola lateral",
+      "url": "standalone/index.html#/produto/0",
+      "description": "Itens agrupados por loja, quantidade, opções selecionadas, remoção, subtotal e acesso ao checkout.",
+      "access": "Adicione um produto ou clique na sacola. Não possui URL própria.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "checkout",
+      "area": "Comprador",
+      "title": "Checkout",
+      "url": "standalone/index.html",
+      "description": "Endereço, entrega/retirada por loja, cupom, totais e pagamento demonstrativo. Produtos digitais dispensam frete.",
+      "access": "Adicione itens → Sacola → Continuar para o checkout; faça login.",
+      "limit": "Não cobra valores nem cria transações em provedores."
+    },
+    {
+      "id": "payment",
+      "area": "Comprador",
+      "title": "Pagamento e confirmação",
+      "url": "standalone/index.html",
+      "description": "Simulação de confirmação/falha e criação de pedidos separados por loja, com tratamento de estoque.",
+      "access": "Avance pelo checkout.",
+      "limit": "Sem Pix real, cartão real ou split bancário."
+    },
+    {
+      "id": "auth",
+      "area": "Comprador",
+      "title": "Login e cadastro",
+      "url": "standalone/index.html",
+      "description": "Cadastro local, login, nome de boas-vindas no cabeçalho e início deslogado ao reabrir.",
+      "access": "Clique em Conta; escolha Entrar ou Criar conta.",
+      "limit": "Autenticação de demonstração; use informações fictícias."
+    },
+    {
+      "id": "account",
+      "area": "Comprador",
+      "title": "Minha conta e perfil",
+      "url": "standalone/index.html",
+      "description": "Edição de dados pessoais e troca de e-mail/senha com confirmação da senha atual.",
+      "access": "Conta → Meu cadastro, após login.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "addresses",
+      "area": "Comprador",
+      "title": "Endereços",
+      "url": "standalone/index.html",
+      "description": "Inclusão, edição e exclusão de endereços; padrões independentes para entrega e cobrança.",
+      "access": "Conta → Endereços de entrega e cobrança.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "orders",
+      "area": "Comprador",
+      "title": "Meus pedidos",
+      "url": "standalone/index.html",
+      "description": "Pedidos associados à conta, situação, recompra e acesso aos detalhes.",
+      "access": "Conta → Pedidos e downloads.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "order-detail",
+      "area": "Comprador",
+      "title": "Detalhes do pedido",
+      "url": "standalone/index.html",
+      "description": "Itens, opções, modalidade, valores, situação e ações do pedido.",
+      "access": "Abra um pedido da sua conta; é necessário concluir uma compra de demonstração.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "buyer-chat",
+      "area": "Comprador",
+      "title": "Chat pós-compra",
+      "url": "standalone/index.html",
+      "description": "Conversa associada ao pedido e à loja, com imagens conforme limites do protótipo.",
+      "access": "Meus pedidos → Pedido → Chat.",
+      "limit": "Mensagens locais; não há comunicação em tempo real com terceiros."
+    },
+    {
+      "id": "downloads",
+      "area": "Comprador",
+      "title": "Downloads",
+      "url": "standalone/index.html",
+      "description": "Área para pedidos digitais e metadados de arquivos, com liberação simulada após pagamento.",
+      "access": "Compre o e-book e consulte Pedidos e downloads.",
+      "limit": "Não entrega um acervo real nem arquivos privados por servidor."
+    },
+    {
+      "id": "favorites",
+      "area": "Comprador",
+      "title": "Favoritos",
+      "url": "standalone/index.html#/busca?favorites=1",
+      "description": "Produtos marcados com coração, com filtro de cobertura.",
+      "access": "Marque produtos como favoritos para preencher esta listagem.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "seller-entry",
+      "area": "Entrada de vendedores",
+      "title": "Quero vender",
+      "url": "standalone/vender.html",
+      "description": "Apresentação comercial, explicação dos perfis e formulário para empresa.",
+      "access": "",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "seller-signup",
+      "area": "Entrada de vendedores",
+      "title": "Cadastro da empresa",
+      "url": "standalone/vender.html#cadastro",
+      "description": "Formulário e validação demonstrativa de CNPJ; mensagem de cadastro em análise.",
+      "access": "Role até o formulário.",
+      "limit": "O formulário não envia nem cria um seller real."
+    },
+    {
+      "id": "seller-login",
+      "area": "Central de Vendedores",
+      "title": "Login",
+      "url": "standalone/painel.html#seller",
+      "description": "Barreira de login antes do painel e opção de conta demonstrativa.",
+      "access": "Conta: lojista@exemplo.com / Demo123!",
+      "limit": "Sessão local; não é proteção de produção."
+    },
+    {
+      "id": "seller-inicio",
+      "area": "Central de Vendedores",
+      "title": "Visão geral",
+      "url": "standalone/painel.html#seller/inicio",
+      "description": "Resumo demonstrativo da operação e atalhos.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Alguns indicadores/textos são fixos."
+    },
+    {
+      "id": "seller-produtos",
+      "area": "Central de Vendedores",
+      "title": "Produtos",
+      "url": "standalone/painel.html#seller/produtos",
+      "description": "Listagem do catálogo próprio com busca, SKU, tipo, preço, estoque, situação e edição.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "seller-novo-produto",
+      "area": "Central de Vendedores",
+      "title": "Cadastrar produto",
+      "url": "standalone/painel.html#seller/novo-produto",
+      "description": "Formulário separado: simples, variação, kit aberto/fechado e digital; fotos/vídeos ordenáveis, capa e autoplay.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Rascunhos locais; não há upload para servidor. Publicação integral de novos produtos ainda depende da integração do catálogo."
+    },
+    {
+      "id": "seller-editar-produto/32",
+      "area": "Central de Vendedores",
+      "title": "Editar produto",
+      "url": "standalone/painel.html#seller/editar-produto/32",
+      "description": "Edição de produto existente, cinco visualizações demonstrativas, mídia reordenável e aprovação editorial.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Preço/estoque podem atualizar antes da aprovação; conteúdo aprovado é aplicado ao produto existente."
+    },
+    {
+      "id": "seller-pedidos",
+      "area": "Central de Vendedores",
+      "title": "Pedidos",
+      "url": "standalone/painel.html#seller/pedidos",
+      "description": "Tabela com filtros, paginação, detalhes e avanço das etapas compatíveis com entrega/retirada/digital.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Protótipo funcional local; dados demonstrativos."
+    },
+    {
+      "id": "seller-logistica",
+      "area": "Central de Vendedores",
+      "title": "Logística",
+      "url": "standalone/painel.html#seller/logistica",
+      "description": "CEP da unidade, cobertura de entrega, tarifa/km, distância máxima, trajeto de teste e horário de corte.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Sem geocodificação ou transportadoras integradas."
+    },
+    {
+      "id": "seller-financeiro",
+      "area": "Central de Vendedores",
+      "title": "Financeiro",
+      "url": "standalone/painel.html#seller/financeiro",
+      "description": "Vendas, comissões, taxas, líquido, disponível/a liberar e movimentações fictícias.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Valores simulados; não há conciliação ou repasse bancário."
+    },
+    {
+      "id": "seller-chat",
+      "area": "Central de Vendedores",
+      "title": "Chat pós-compra",
+      "url": "standalone/painel.html#seller/chat",
+      "description": "Lista de conversas e mensagens por pedido, independente da tela de pedidos.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Persistência local."
+    },
+    {
+      "id": "seller-equipe",
+      "area": "Central de Vendedores",
+      "title": "Equipe",
+      "url": "standalone/painel.html#seller/equipe",
+      "description": "Prévia de colaboradores e seleção individual de permissões.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Tela de simulação: permissões não são gravadas nem aplicadas como controle de acesso real."
+    },
+    {
+      "id": "seller-classificacao",
+      "area": "Central de Vendedores",
+      "title": "Classificação",
+      "url": "standalone/painel.html#seller/classificacao",
+      "description": "Exibição de selo, critérios e informações de documentos/volume.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Sem verificação automática de documentos."
+    },
+    {
+      "id": "seller-aparencia",
+      "area": "Central de Vendedores",
+      "title": "Vitrine da loja",
+      "url": "standalone/painel.html#seller/aparencia",
+      "description": "Módulos ordenáveis: banners, mosaicos, vídeos, vitrines em grade/carrossel e categorias.",
+      "access": "Faça login para acessar. Ao abrir em arquivo local separado, o armazenamento pode variar em relação à área incorporada no index.",
+      "limit": "Disponível apenas para Indicadas/Oficiais. Configuração local; URLs externas dependem de internet."
+    },
+    {
+      "id": "admin-inicio",
+      "area": "Administração",
+      "title": "Visão geral",
+      "url": "standalone/painel.html#admin/inicio",
+      "description": "Resumo global e atalhos.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-sellers",
+      "area": "Administração",
+      "title": "Sellers e filiais",
+      "url": "standalone/painel.html#admin/sellers",
+      "description": "Inclusão/edição de estabelecimentos, status, dados da unidade e acesso ao contexto de uma loja.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-aprovacao",
+      "area": "Administração",
+      "title": "Aprovação de produtos",
+      "url": "standalone/painel.html#admin/aprovacao",
+      "description": "Revisão editorial local, prévias numeradas das mídias, aprovação/rejeição com motivo.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-pedidos",
+      "area": "Administração",
+      "title": "Pedidos globais",
+      "url": "standalone/painel.html#admin/pedidos",
+      "description": "Listagem e intervenção administrativa nas etapas dos pedidos.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-financeiro",
+      "area": "Administração",
+      "title": "Financeiro global",
+      "url": "standalone/painel.html#admin/financeiro",
+      "description": "Consulta e resumo de vendas e valores simulados.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-pagamentos",
+      "area": "Administração",
+      "title": "Pagamentos",
+      "url": "standalone/painel.html#admin/pagamentos",
+      "description": "Seleção do provedor pretendido e habilitação demonstrativa de Pix/cartão.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-logistica",
+      "area": "Administração",
+      "title": "Envio e retirada",
+      "url": "standalone/painel.html#admin/logistica",
+      "description": "Configuração de origem, CEP, cobertura, tarifa e corte por loja.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-cupons",
+      "area": "Administração",
+      "title": "Cupons e frete grátis",
+      "url": "standalone/painel.html#admin/cupons",
+      "description": "Cupons percentuais, mínimo por loja e limiar de gratuidade.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-notificacoes",
+      "area": "Administração",
+      "title": "E-mail e WhatsApp",
+      "url": "standalone/painel.html#admin/notificacoes",
+      "description": "Modelos de mensagens e fila de eventos de mudanças de status.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-classificacao",
+      "area": "Administração",
+      "title": "Classificações",
+      "url": "standalone/painel.html#admin/classificacao",
+      "description": "Concessão e revisão dos selos, documentos e métricas de pedidos.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-vitrines",
+      "area": "Administração",
+      "title": "Vitrines globais e categorias",
+      "url": "standalone/painel.html#admin/vitrines",
+      "description": "Composição modular da home e banners/vídeos por categoria, no topo, entre produtos ou ao final.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-regras",
+      "area": "Administração",
+      "title": "Regras e regiões",
+      "url": "standalone/painel.html#admin/regras",
+      "description": "Faixas de CEP, cidades, comissão uniforme e parâmetro de tempo por quilômetro.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "admin-auditoria",
+      "area": "Administração",
+      "title": "Auditoria",
+      "url": "standalone/painel.html#admin/auditoria",
+      "description": "Registro local de autor, data, motivo e alterações administrativas.",
+      "access": "Área administrativa demonstrativa.",
+      "limit": "Sem autenticação administrativa segura, integrações externas ou auditoria inviolável."
+    },
+    {
+      "id": "category-Casa & decoração",
+      "area": "Categorias",
+      "title": "Casa & decoração",
+      "url": "standalone/index.html#/busca?category=Casa%20%26%20decora%C3%A7%C3%A3o",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Moda & acessórios",
+      "area": "Categorias",
+      "title": "Moda & acessórios",
+      "url": "standalone/index.html#/busca?category=Moda%20%26%20acess%C3%B3rios",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Beleza & cuidados",
+      "area": "Categorias",
+      "title": "Beleza & cuidados",
+      "url": "standalone/index.html#/busca?category=Beleza%20%26%20cuidados",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Eletrônicos",
+      "area": "Categorias",
+      "title": "Eletrônicos",
+      "url": "standalone/index.html#/busca?category=Eletr%C3%B4nicos",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Esporte & lazer",
+      "area": "Categorias",
+      "title": "Esporte & lazer",
+      "url": "standalone/index.html#/busca?category=Esporte%20%26%20lazer",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Jardim & plantas",
+      "area": "Categorias",
+      "title": "Jardim & plantas",
+      "url": "standalone/index.html#/busca?category=Jardim%20%26%20plantas",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Livros & digitais",
+      "area": "Categorias",
+      "title": "Livros & digitais",
+      "url": "standalone/index.html#/busca?category=Livros%20%26%20digitais",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Mercado & alimentos",
+      "area": "Categorias",
+      "title": "Mercado & alimentos",
+      "url": "standalone/index.html#/busca?category=Mercado%20%26%20alimentos",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Pet shop",
+      "area": "Categorias",
+      "title": "Pet shop",
+      "url": "standalone/index.html#/busca?category=Pet%20shop",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Brinquedos & jogos",
+      "area": "Categorias",
+      "title": "Brinquedos & jogos",
+      "url": "standalone/index.html#/busca?category=Brinquedos%20%26%20jogos",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Papelaria & escritório",
+      "area": "Categorias",
+      "title": "Papelaria & escritório",
+      "url": "standalone/index.html#/busca?category=Papelaria%20%26%20escrit%C3%B3rio",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "category-Ferramentas & construção",
+      "area": "Categorias",
+      "title": "Ferramentas & construção",
+      "url": "standalone/index.html#/busca?category=Ferramentas%20%26%20constru%C3%A7%C3%A3o",
+      "description": "Grade com filtros laterais, ordenação e módulos promocionais configuráveis. Moda usa fotos 4:5; demais categorias usam quadro 1:1.",
+      "access": "Escolha um CEP atendido.",
+      "limit": "Algumas categorias não têm produtos de exemplo e mostram estado vazio."
+    },
+    {
+      "id": "store-0",
+      "area": "Lojas",
+      "title": "Casa Aurora · Cianorte",
+      "url": "standalone/index.html#/loja/0",
+      "description": "Perfil, informações, busca interna, categorias e produtos da unidade. Lojas com selo admitem composição personalizada e vídeos.",
+      "access": "CEP de teste: 87200000. A retirada é restrita à cidade da unidade.",
+      "limit": "Loja fictícia, sem operação comercial real."
+    },
+    {
+      "id": "store-1",
+      "area": "Lojas",
+      "title": "Essencial Concept · Maringá",
+      "url": "standalone/index.html#/loja/1",
+      "description": "Perfil, informações, busca interna, categorias e produtos da unidade. Lojas com selo admitem composição personalizada e vídeos.",
+      "access": "CEP de teste: 87000000. A retirada é restrita à cidade da unidade.",
+      "limit": "Loja fictícia, sem operação comercial real."
+    },
+    {
+      "id": "store-2",
+      "area": "Lojas",
+      "title": "Verde & Vida · Cianorte",
+      "url": "standalone/index.html#/loja/2",
+      "description": "Perfil, informações, busca interna, categorias e produtos da unidade. Lojas com selo admitem composição personalizada e vídeos.",
+      "access": "CEP de teste: 87200000. A retirada é restrita à cidade da unidade.",
+      "limit": "Loja fictícia, sem operação comercial real."
+    },
+    {
+      "id": "store-100",
+      "area": "Lojas",
+      "title": "Lar & Luz · Cianorte",
+      "url": "standalone/index.html#/loja/100",
+      "description": "Perfil, informações, busca interna, categorias e produtos da unidade. Lojas com selo admitem composição personalizada e vídeos.",
+      "access": "CEP de teste: 87200000. A retirada é restrita à cidade da unidade.",
+      "limit": "Loja fictícia, sem operação comercial real."
+    },
+    {
+      "id": "store-101",
+      "area": "Lojas",
+      "title": "Jardim de Casa · Cianorte",
+      "url": "standalone/index.html#/loja/101",
+      "description": "Perfil, informações, busca interna, categorias e produtos da unidade. Lojas com selo admitem composição personalizada e vídeos.",
+      "access": "CEP de teste: 87200000. A retirada é restrita à cidade da unidade.",
+      "limit": "Loja fictícia, sem operação comercial real."
+    },
+    {
+      "id": "store-102",
+      "area": "Lojas",
+      "title": "Conecta Maringá · Maringá",
+      "url": "standalone/index.html#/loja/102",
+      "description": "Perfil, informações, busca interna, categorias e produtos da unidade. Lojas com selo admitem composição personalizada e vídeos.",
+      "access": "CEP de teste: 87000000. A retirada é restrita à cidade da unidade.",
+      "limit": "Loja fictícia, sem operação comercial real."
+    },
+    {
+      "id": "product-0",
+      "area": "Produtos",
+      "title": "Poltrona de madeira com estofado",
+      "url": "standalone/index.html#/produto/0",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem, vídeo na posição 1.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-1",
+      "area": "Produtos",
+      "title": "Tênis casual urbano",
+      "url": "standalone/index.html#/produto/1",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-2",
+      "area": "Produtos",
+      "title": "Fone de ouvido sem fio",
+      "url": "standalone/index.html#/produto/2",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-3",
+      "area": "Produtos",
+      "title": "Vaso de cerâmica com folhagem",
+      "url": "standalone/index.html#/produto/3",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Verde & Vida; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-4",
+      "area": "Produtos",
+      "title": "Bolsa casual preta",
+      "url": "standalone/index.html#/produto/4",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-5",
+      "area": "Produtos",
+      "title": "Câmera fotográfica compacta",
+      "url": "standalone/index.html#/produto/5",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-6",
+      "area": "Produtos",
+      "title": "Kit de cuidados essenciais",
+      "url": "standalone/index.html#/produto/6",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-7",
+      "area": "Produtos",
+      "title": "Luminária de mesa minimalista",
+      "url": "standalone/index.html#/produto/7",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-8",
+      "area": "Produtos",
+      "title": "Tênis esportivo para caminhada",
+      "url": "standalone/index.html#/produto/8",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-9",
+      "area": "Produtos",
+      "title": "Cadeira contemporânea em madeira",
+      "url": "standalone/index.html#/produto/9",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-10",
+      "area": "Produtos",
+      "title": "Óculos de sol clássico",
+      "url": "standalone/index.html#/produto/10",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-11",
+      "area": "Produtos",
+      "title": "Kit para cuidar do jardim",
+      "url": "standalone/index.html#/produto/11",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Verde & Vida; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-12",
+      "area": "Produtos",
+      "title": "Camisa social",
+      "url": "standalone/index.html#/produto/12",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-13",
+      "area": "Produtos",
+      "title": "Cinto casual",
+      "url": "standalone/index.html#/produto/13",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-14",
+      "area": "Produtos",
+      "title": "Calça de alfaiataria",
+      "url": "standalone/index.html#/produto/14",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-15",
+      "area": "Produtos",
+      "title": "Blazer clássico",
+      "url": "standalone/index.html#/produto/15",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-16",
+      "area": "Produtos",
+      "title": "Kit Dia dos Pais — completo",
+      "url": "standalone/index.html#/produto/16",
+      "description": "Tipo: kit fechado. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-17",
+      "area": "Produtos",
+      "title": "Kit Dia dos Pais — monte o seu",
+      "url": "standalone/index.html#/produto/17",
+      "description": "Tipo: kit aberto. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Essencial Concept; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-18",
+      "area": "Produtos",
+      "title": "E-book — Guia para uma casa acolhedora",
+      "url": "standalone/index.html#/produto/18",
+      "description": "Tipo: digital. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-19",
+      "area": "Produtos",
+      "title": "Luminária de mesa Lar & Luz",
+      "url": "standalone/index.html#/produto/19",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Lar & Luz; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-20",
+      "area": "Produtos",
+      "title": "Poltrona aconchego",
+      "url": "standalone/index.html#/produto/20",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Lar & Luz; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-21",
+      "area": "Produtos",
+      "title": "Cadeira de madeira natural",
+      "url": "standalone/index.html#/produto/21",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Lar & Luz; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-22",
+      "area": "Produtos",
+      "title": "Planta em vaso de cerâmica",
+      "url": "standalone/index.html#/produto/22",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Jardim de Casa; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-23",
+      "area": "Produtos",
+      "title": "Ferramentas para jardinagem",
+      "url": "standalone/index.html#/produto/23",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Jardim de Casa; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-24",
+      "area": "Produtos",
+      "title": "Vaso verde para decorar",
+      "url": "standalone/index.html#/produto/24",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Jardim de Casa; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-25",
+      "area": "Produtos",
+      "title": "Fone sem fio Conecta",
+      "url": "standalone/index.html#/produto/25",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Conecta Maringá; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-26",
+      "area": "Produtos",
+      "title": "Câmera para registrar momentos",
+      "url": "standalone/index.html#/produto/26",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Conecta Maringá; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-27",
+      "area": "Produtos",
+      "title": "Fone para música e trabalho",
+      "url": "standalone/index.html#/produto/27",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Conecta Maringá; cidade: Maringá; CEP de teste: 87000000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-28",
+      "area": "Produtos",
+      "title": "Camisa social",
+      "url": "standalone/index.html#/produto/28",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem, vídeo na posição 3.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-29",
+      "area": "Produtos",
+      "title": "Calça de alfaiataria",
+      "url": "standalone/index.html#/produto/29",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-30",
+      "area": "Produtos",
+      "title": "Blazer clássico",
+      "url": "standalone/index.html#/produto/30",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-31",
+      "area": "Produtos",
+      "title": "Bolsa casual preta",
+      "url": "standalone/index.html#/produto/31",
+      "description": "Tipo: simples. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    },
+    {
+      "id": "product-32",
+      "area": "Produtos",
+      "title": "Blazer social azul-marinho — no modelo",
+      "url": "standalone/index.html#/produto/32",
+      "description": "Tipo: com variações. Galeria ordenada, preço, compra e disponibilidade; 5 visualizações de imagem, vídeo na posição 1.",
+      "access": "Loja: Casa Aurora; cidade: Cianorte; CEP de teste: 87200000.",
+      "limit": "Fotos ilustrativas; visualizações adicionais são recortes da mesma imagem. Vídeos são animações demonstrativas. A descrição/PDP aguarda próxima revisão."
+    }
+  ]
+}

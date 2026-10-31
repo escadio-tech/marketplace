@@ -9,7 +9,7 @@ const memory=new Map();let store=0;
 globalThis.localStorage={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)};
 globalThis.sessionStorage={getItem:()=>String(store)};
 test('listagem usa catálogo da própria loja e cadastro está separado',()=>{
- const products=sellerProducts();assert.equal(products.length,4);assert.ok(products.every(p=>p.store===0));
+ const products=sellerProducts();assert.equal(products.length,9);assert.ok(products.every(p=>p.store===0));
  const html=sellerProductListMarkup();assert.match(html,/Poltrona de madeira/);assert.match(html,/#seller\/editar-produto\/0/);assert.doesNotMatch(html,/typed-product-form/);assert.match(productEditorMarkup(),/typed-product-form/);
  store=102;assert.equal(sellerProducts().length,3);assert.ok(sellerProducts().every(p=>p.store===102));store=0;
 });
@@ -40,3 +40,4 @@ test('chat tem lista de conversas própria e envia resposta sem repetir pedidos'
  await root.onsubmit({target:{closest:()=>f},preventDefault(){}});assert.equal(readDemoOrders()[0].suborders[0].messages[0].text,'Seu pedido está sendo separado.');
  }finally{delete globalThis.document;}
 });
+
